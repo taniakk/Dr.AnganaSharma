@@ -16,6 +16,8 @@
 
   <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+
   <style>
 
     body{
@@ -54,37 +56,39 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 <body>
 
+
+  
 <!-- ================= NAVBAR ================= -->
-
-
-<header class="fixed top-0 left-0 w-full z-50">
+ <header class="fixed top-4 left-0 w-full z-50">
 
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4">
 
     <div class="glass rounded-2xl lg:rounded-full px-5 sm:px-7 py-4 flex items-center justify-between soft-shadow">
 
       <!-- LOGO -->
-      <div>
-        <h1 class="text-2xl font-semibold text-[#4F6F5F] tracking-wide">
-          MindCare
-        </h1>
-      </div>
+  <div class="flex items-center">
+  <img 
+    src="/images/Dr.logo.png" 
+    alt="Dr Angana Logo"
+    class="h-12 sm:h-14 lg:h-16 w-auto object-contain"
+  >
+</div>
 
       <!-- DESKTOP MENU -->
       <nav class="hidden lg:flex items-center gap-10 text-[15px] text-gray-700">
 
-        <a href="#home" class="relative group">
+        <a href="/index.html" class="relative group">
           Home
           <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
         </a>
 
-        <a href="#about" class="relative group">
+        <a href="/about.html" class="relative group">
           About
           <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
         </a>
 
-        <a href="#expertise" class="relative group">
-          Expertise
+        <a href="/services.html" class="relative group">
+          Services
           <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
         </a>
 
@@ -145,16 +149,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
       <nav class="flex flex-col gap-5 text-gray-700 text-[15px]">
 
-        <a href="#home" class="hover:text-[#4F6F5F] transition">
+        <a href="/index.html" class="hover:text-[#4F6F5F] transition">
           Home
         </a>
 
-        <a href="#about" class="hover:text-[#4F6F5F] transition">
+        <a href="/about.html" class="hover:text-[#4F6F5F] transition">
           About
         </a>
 
-        <a href="#expertise" class="hover:text-[#4F6F5F] transition">
-          Expertise
+        <a href="/services.html" class="hover:text-[#4F6F5F] transition">
+          Services
         </a>
 
         <a href="#therapy" class="hover:text-[#4F6F5F] transition">
@@ -210,7 +214,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 </script>
 
 
- 
 
 <!-- ================= HERO SECTION ================= -->
 
@@ -226,7 +229,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     <!-- LEFT -->
     <div>
 
-      <p class="uppercase tracking-[4px] text-sm text-[#6E8273] mt-[100px] lg:mt-5 mb-5">
+      <p class="uppercase tracking-[4px] text-sm text-[#6E8273] mt-[160px] lg:mt-[100px] mb-5">
         Clinical Psychologist & Psychotherapist
       </p>
 
@@ -300,11 +303,11 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
       <div class="absolute inset-0 bg-[#DCCFC0]/40 rounded-[40px] rotate-6 scale-95 blur-sm"></div>
 
-      <div class="relative rounded-[40px] mt-20 overflow-hidden soft-shadow">
+      <div class="relative rounded-[40px] lg:mt-[140px] mb-4 overflow-hidden soft-shadow">
 
         <img
           src="/images/Dr.Anjana.jpeg"
-          class="w-full h-[660px]  object-cover"
+          class="w-full h-[660px] object-cover"
         >
 
         <!-- FLOATING CARD -->
@@ -313,10 +316,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
           <p class="text-sm text-gray-500">
             Clinical Psychologist
           </p>
-
-          <h3 class="text-2xl font-semibold text-[#2D3B34] mt-1">
-            PhD (Pursuing) | Gold Medalist
-          </h3>
 
         </div>
 
@@ -328,7 +327,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 </section>
 
-<!-- ================= ABOUT ================= -->
+
 
 <!-- ================= AOS ================= -->
 <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
@@ -519,34 +518,34 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         <div class="mt-12 grid sm:grid-cols-2 gap-5">
 
           <!-- EDUCATION CARD -->
-          <div 
-            data-aos="fade-up"
-            data-aos-delay="150"
-            class="bg-white/70 backdrop-blur-xl 
-            border border-white/60 
-            rounded-[28px] p-7 shadow-md">
+         <div 
+  data-aos="fade-up"
+  data-aos-delay="150"
+  class="bg-white/70 backdrop-blur-xl 
+  border border-white/60 
+  rounded-[28px] p-7 shadow-md">
 
-            <p class="text-sm uppercase tracking-[3px] text-[#6E8273]">
-              Education
-            </p>
+  <p class="text-sm uppercase tracking-[3px] text-[#6E8273]">
+    Education
+  </p>
 
-            <div class="mt-5 space-y-4 text-[#2D3B34]">
+  <div class="mt-5 space-y-4 text-[#2D3B34]">
 
-              <h3 class="font-medium">
-                PhD (Pursuing)
-              </h3>
+    <h3 class="font-medium">
+      M.Phil in Clinical Psychology (Gold Medalist)
+    </h3>
 
-              <h3 class="font-medium">
-                M.Phil Clinical Psychology
-              </h3>
+    <h3 class="font-medium">
+      Masters in Clinical Psychology
+    </h3>
 
-              <h3 class="font-medium">
-                Masters in Clinical Psychology
-              </h3>
+    <h3 class="font-medium">
+      PhD (Pursuing)
+    </h3>
 
-            </div>
+  </div>
 
-          </div>
+</div>
 
           <!-- EXPERIENCE CARD -->
           <div 
@@ -629,7 +628,6 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 </script>
 
-<!-- ================= EXPERTISE ================= -->
 
 <!-- ================= PREMIUM EXPERTISE SECTION ================= -->
  
@@ -917,7 +915,589 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
 </section>
 
+<!-- ================= CONSULTATION HOURS ================= -->
+<section id="consultation-hours" class="relative py-32 bg-[#F7F8F6] overflow-hidden">
 
+  <!-- BACKGROUND GLOW -->
+  <div class="absolute top-[-150px] right-[-100px] 
+              w-[450px] h-[450px] 
+              bg-[#8FAF9D]/10 blur-[130px] rounded-full">
+  </div>
+
+  <div class="absolute bottom-[-180px] left-[-100px] 
+              w-[400px] h-[400px] 
+              bg-[#DCCFC0]/20 blur-[130px] rounded-full">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+
+    <!-- TOP -->
+    <div class="text-center max-w-4xl mx-auto">
+
+      <!-- LABEL -->
+      <div class="inline-flex items-center gap-3 
+                  bg-white/80 backdrop-blur-xl 
+                  border border-white/60 
+                  rounded-full px-5 py-2 shadow-sm">
+
+        <div class="w-2 h-2 rounded-full bg-[#4F6F5F]"></div>
+
+        <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+          Consultation Availability
+        </p>
+
+      </div>
+
+      <!-- HEADING -->
+      <h2 class="heading-font 
+                 text-5xl lg:text-6xl 
+                 leading-[1.05] 
+                 text-[#2D3B34] mt-8">
+
+        Thoughtfully scheduled sessions for personalized care.
+
+      </h2>
+
+      <!-- DESCRIPTION -->
+      <p class="mt-8 text-gray-600 text-lg leading-9 max-w-3xl mx-auto">
+
+        All consultations are conducted strictly through prior appointments to ensure privacy, focused therapeutic support, and a comfortable healing environment.
+
+      </p>
+
+    </div>
+
+    <!-- MAIN CARD -->
+    <div 
+      data-aos="fade-up"
+      class="mt-24 grid lg:grid-cols-[1.1fr_0.9fr] 
+             overflow-hidden rounded-[42px]
+             shadow-[0_20px_80px_rgba(0,0,0,0.06)]
+             bg-white/80 backdrop-blur-2xl border border-white/60">
+
+      <!-- LEFT SIDE -->
+      <div class="p-10 lg:p-14">
+
+        <!-- TITLE -->
+        <div class="flex items-center gap-4">
+
+          <div class="w-16 h-16 rounded-2xl 
+                      bg-[#EEF3EF] 
+                      flex items-center justify-center 
+                      text-3xl">
+
+            🕊
+
+          </div>
+
+          <div>
+
+            <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+              Weekly Availability
+            </p>
+
+            <h3 class="text-3xl font-semibold text-[#2D3B34] mt-2">
+              Consultation Schedule
+            </h3>
+
+          </div>
+
+        </div>
+
+        <!-- DAYS -->
+        <div class="mt-12 space-y-6">
+
+          <!-- MONDAY TO FRIDAY -->
+          <div class="flex items-center justify-between 
+                      py-6 border-b border-[#E6ECE7]">
+
+            <div>
+
+              <h4 class="text-2xl font-medium text-[#2D3B34]">
+                Monday – Friday
+              </h4>
+
+              <p class="text-gray-500 mt-2">
+                Available Through Prior Appointment
+              </p>
+
+            </div>
+
+            <span class="px-5 py-2 rounded-full 
+                         bg-[#EEF3EF] text-[#4F6F5F] text-sm font-medium">
+
+              Open
+
+            </span>
+
+          </div>
+
+          <!-- SATURDAY -->
+          <div class="flex items-center justify-between 
+                      py-6 border-b border-[#E6ECE7]">
+
+            <div>
+
+              <h4 class="text-2xl font-medium text-[#2D3B34]">
+                Saturday
+              </h4>
+
+              <p class="text-gray-500 mt-2">
+                Clinic Closed
+              </p>
+
+            </div>
+
+            <span class="px-5 py-2 rounded-full 
+                         bg-red-50 text-red-500 text-sm font-medium">
+
+              Closed
+
+            </span>
+
+          </div>
+
+          <!-- SUNDAY -->
+          <div class="flex items-center justify-between py-6">
+
+            <div>
+
+              <h4 class="text-2xl font-medium text-[#2D3B34]">
+                Sunday
+              </h4>
+
+              <p class="text-gray-500 mt-2">
+                Clinic Closed
+              </p>
+
+            </div>
+
+            <span class="px-5 py-2 rounded-full 
+                         bg-red-50 text-red-500 text-sm font-medium">
+
+              Closed
+
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="relative bg-[#4F6F5F] p-10 lg:p-14 text-white overflow-hidden">
+
+        <!-- GLOW -->
+        <div class="absolute top-[-100px] right-[-100px] 
+                    w-[250px] h-[250px] 
+                    bg-white/10 blur-[100px] rounded-full">
+        </div>
+
+        <!-- CONTENT -->
+        <div class="relative z-10">
+
+          <p class="uppercase tracking-[3px] text-[11px] text-white/60">
+            Appointment Information
+          </p>
+
+          <h3 class="text-4xl leading-tight font-semibold mt-6">
+
+            Every session is thoughtfully scheduled with care and attention.
+
+          </h3>
+
+          <p class="mt-8 text-white/80 leading-8">
+
+            Prior appointments help maintain confidentiality, uninterrupted consultation time, and a calm therapeutic environment tailored to each individual’s emotional wellbeing.
+
+          </p>
+
+          <!-- FEATURES -->
+          <div class="mt-10 space-y-5">
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Online & Offline Sessions Available
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                One-to-One Personalized Consultations
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Safe, Confidential & Supportive Space
+              </p>
+
+            </div>
+
+          </div>
+
+          <!-- BUTTON -->
+          <a href="#contact"
+             class="inline-flex items-center gap-3 
+                    mt-12 bg-white text-[#2D3B34]
+                    px-7 py-4 rounded-full
+                    hover:bg-[#EEF3EF]
+                    transition duration-300">
+
+            <span>
+              Book Appointment
+            </span>
+
+            <span>
+              →
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= BOOK APPOINTMENT SECTION ================= -->
+<section id="contact" class="relative py-32 bg-[#EEF3EF]/50 overflow-hidden">
+
+  <!-- SOFT GLOW -->
+  <div class="absolute top-[-150px] right-[-100px] 
+              w-[450px] h-[450px] 
+              bg-[#8FAF9D]/10 blur-[130px] rounded-full">
+  </div>
+
+  <div class="absolute bottom-[-180px] left-[-100px] 
+              w-[400px] h-[400px] 
+              bg-[#DCCFC0]/20 blur-[130px] rounded-full">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+
+    <!-- TOP CONTENT -->
+    <div class="text-center max-w-4xl mx-auto">
+
+      <!-- LABEL -->
+      <div class="inline-flex items-center gap-3 
+                  bg-white/80 backdrop-blur-xl 
+                  border border-white/60 
+                  rounded-full px-5 py-2 shadow-sm">
+
+        <div class="w-2 h-2 rounded-full bg-[#4F6F5F]"></div>
+
+        <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+          Book Appointment
+        </p>
+
+      </div>
+
+      <!-- HEADING -->
+      <h2 class="heading-font 
+                 text-5xl lg:text-6xl 
+                 leading-[1.05] 
+                 text-[#2D3B34] mt-8">
+
+        Begin your journey toward emotional wellbeing.
+
+      </h2>
+
+      <!-- DESCRIPTION -->
+      <p class="mt-8 text-gray-600 text-lg leading-9 max-w-3xl mx-auto">
+
+        Schedule a confidential consultation session through the appointment form below. Every session is thoughtfully planned to provide a safe, supportive, and comfortable therapeutic experience.
+
+      </p>
+
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div 
+      data-aos="fade-up"
+      class="mt-24 grid lg:grid-cols-[1fr_0.85fr] 
+             overflow-hidden rounded-[42px]
+             bg-white/80 backdrop-blur-2xl
+             border border-white/60
+             shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
+
+      <!-- ================= FORM SIDE ================= -->
+      <div class="p-10 lg:p-14">
+
+        <h3 class="text-3xl font-semibold text-[#2D3B34]">
+          Appointment Request
+        </h3>
+
+        <p class="text-gray-500 mt-4 leading-8">
+
+          Kindly fill in your details below. You will be contacted shortly to confirm your appointment.
+
+        </p>
+
+        <!-- FORM -->
+        <form class="mt-10 space-y-7">
+
+          <!-- NAME -->
+          <div>
+
+            <label class="block text-sm tracking-wide text-[#6E8273] mb-3">
+              Full Name
+            </label>
+
+            <input 
+              type="text"
+              placeholder="Enter your full name"
+              class="w-full px-6 py-5 rounded-2xl 
+                     border border-[#DDE5DE]
+                     bg-white/70
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300">
+
+          </div>
+
+          <!-- EMAIL -->
+          <div>
+
+            <label class="block text-sm tracking-wide text-[#6E8273] mb-3">
+              Email Address
+            </label>
+
+            <input 
+              type="email"
+              placeholder="Enter your email"
+              class="w-full px-6 py-5 rounded-2xl 
+                     border border-[#DDE5DE]
+                     bg-white/70
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300">
+
+          </div>
+
+          <!-- PHONE -->
+          <div>
+
+            <label class="block text-sm tracking-wide text-[#6E8273] mb-3">
+              Phone Number
+            </label>
+
+            <input 
+              type="tel"
+              placeholder="Enter your phone number"
+              class="w-full px-6 py-5 rounded-2xl 
+                     border border-[#DDE5DE]
+                     bg-white/70
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300">
+
+          </div>
+
+          <!-- SESSION TYPE -->
+          <div>
+
+            <label class="block text-sm tracking-wide text-[#6E8273] mb-3">
+              Consultation Preference
+            </label>
+
+            <select 
+              class="w-full px-6 py-5 rounded-2xl 
+                     border border-[#DDE5DE]
+                     bg-white/70
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300">
+
+              <option>Select Consultation Type</option>
+              <option>Online Consultation</option>
+              <option>In-Person Consultation</option>
+
+            </select>
+
+          </div>
+
+          <!-- MESSAGE -->
+          <div>
+
+            <label class="block text-sm tracking-wide text-[#6E8273] mb-3">
+              Message
+            </label>
+
+            <textarea 
+              rows="5"
+              placeholder="Share your concerns or preferred appointment details..."
+              class="w-full px-6 py-5 rounded-2xl 
+                     border border-[#DDE5DE]
+                     bg-white/70
+                     resize-none
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300"></textarea>
+
+          </div>
+
+          <!-- BUTTON -->
+          <button 
+            type="submit"
+            class="inline-flex items-center gap-3 
+                   bg-[#4F6F5F] text-white
+                   px-8 py-5 rounded-full
+                   hover:bg-[#2D3B34]
+                   transition duration-300">
+
+            <span>
+              Submit Appointment Request
+            </span>
+
+            <span>
+              →
+            </span>
+
+          </button>
+
+        </form>
+
+      </div>
+
+      <!-- ================= RIGHT SIDE ================= -->
+      <div class="relative bg-[#4F6F5F] text-white p-10 lg:p-14 overflow-hidden">
+
+        <!-- GLOW -->
+        <div class="absolute top-[-100px] right-[-100px] 
+                    w-[260px] h-[260px] 
+                    bg-white/10 blur-[110px] rounded-full">
+        </div>
+
+        <div class="relative z-10">
+
+          <!-- IMAGE -->
+          <div class="overflow-hidden rounded-[32px]">
+
+            <img 
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
+              alt="Therapy Consultation"
+              class="w-full h-[260px] object-cover">
+
+          </div>
+
+          <!-- CONTENT -->
+          <div class="mt-10">
+
+            <p class="uppercase tracking-[3px] text-[11px] text-white/60">
+              Safe & Confidential
+            </p>
+
+            <h3 class="text-4xl leading-tight font-semibold mt-5">
+
+              Every conversation begins with understanding, empathy & care.
+
+            </h3>
+
+            <p class="mt-8 text-white/80 leading-8">
+
+              Therapy sessions are conducted in a confidential, respectful, and supportive environment designed to help individuals feel safe, heard, and emotionally supported.
+
+            </p>
+
+          </div>
+
+          <!-- FEATURES -->
+          <div class="mt-10 space-y-5">
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Personalized One-to-One Sessions
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Online & In-Person Consultations
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Prior Appointment Required
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 <!-- ================= PREMIUM MANAGEMENT SECTION ================= -->
 
@@ -1481,10 +2061,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
         <ul class="space-y-3 text-gray-600">
 
-          <li>PhD (Pursuing)</li>
-          <li>M.Phil Clinical Psychology</li>
+          <li>M.Phil Clinical Psychology (Gold Medalist)</li>
           <li>M.A. Clinical Psychology</li>
-          <li>Gold Medalist</li>
+          <li>PhD (Pursuing)</li>
 
         </ul>
 
@@ -1516,12 +2095,29 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 
         <ul class="space-y-3 text-gray-600">
 
+          <!-- <li>📞 +91 97390 87734</li> -->
           <li>Online & Offline Sessions</li>
           <li>Available By Appointment</li>
           <li>RCI Registered</li>
-          <li>IACP Member</li>
 
         </ul>
+
+        <!-- SOCIAL ICONS -->
+        <div class="flex items-center gap-4 mt-6">
+
+        
+
+          <!-- LINKEDIN -->
+          <a 
+            href="https://www.linkedin.com/in/angana-mukherjee-sharma-86a5557b/"
+            target="_blank"
+            class="w-11 h-11 rounded-full bg-[#4F6F5F] text-white flex items-center justify-center hover:scale-110 transition duration-300">
+
+            <i class="fa-brands fa-linkedin-in text-lg"></i>
+
+          </a>
+
+        </div>
 
       </div>
 

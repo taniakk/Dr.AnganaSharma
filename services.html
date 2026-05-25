@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Areas of Expertise | Dr. Angana</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+   <link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+
+  <!-- AOS -->
+  <link
+    href="https://unpkg.com/aos@2.3.4/dist/aos.css"
+    rel="stylesheet"
+  />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    body{
+      font-family: 'Inter', sans-serif;
+      background: #F7F9F7;
+      color: #2D3B34;
+      overflow-x: hidden;
+    }
+
+    .heading-font{
+      font-family: 'Cormorant Garamond', serif;
+    }
+
+    .glass{
+      background: rgba(255,255,255,0.72);
+      backdrop-filter: blur(18px);
+      border: 1px solid rgba(255,255,255,0.6);
+    }
+
+    .soft-shadow{
+      box-shadow: 0 20px 80px rgba(0,0,0,0.06);
+    }
+
+    html{
+      scroll-behavior: smooth;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+<!-- ================= NAVBAR ================= -->
+ <header class="fixed top-4 left-0 w-full z-50">
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4">
+
+    <div class="glass rounded-2xl lg:rounded-full px-5 sm:px-7 py-4 flex items-center justify-between soft-shadow">
+
+      <!-- LOGO -->
+  <div class="flex items-center">
+  <img 
+    src="/images/Dr.logo.png" 
+    alt="Dr Angana Logo"
+    class="h-12 sm:h-14 lg:h-16 w-auto object-contain"
+  >
+</div>
+
+      <!-- DESKTOP MENU -->
+      <nav class="hidden lg:flex items-center gap-10 text-[15px] text-gray-700">
+
+        <a href="/index.html" class="relative group">
+          Home
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/about.html" class="relative group">
+          About
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/services.html" class="relative group">
+          Services
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/index.html#therapy" class="relative group">
+          Therapy
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/index.html#charges" class="relative group">
+          Charges
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/index.html#contact" class="relative group">
+          Contact
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+      </nav>
+
+      <!-- RIGHT SIDE -->
+      <div class="flex items-center gap-3">
+
+        <!-- DESKTOP BUTTON -->
+        <button class="hidden lg:block bg-[#4F6F5F] hover:bg-[#3E5B4D] transition duration-300 text-white px-6 py-3 rounded-full text-sm shadow-lg shadow-[#4F6F5F]/20">
+          Book Appointment
+        </button>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button 
+          id="menu-btn"
+          class="lg:hidden w-11 h-11 rounded-full bg-[#4F6F5F] text-white flex items-center justify-center">
+
+          <!-- MENU ICON -->
+          <svg xmlns="http://www.w3.org/2000/svg"
+               class="w-6 h-6"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16" />
+
+          </svg>
+
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div 
+      id="mobile-menu"
+      class="hidden lg:hidden mt-4 glass rounded-3xl p-6 soft-shadow">
+
+      <nav class="flex flex-col gap-5 text-gray-700 text-[15px]">
+
+        <a href="/index.html" class="hover:text-[#4F6F5F] transition">
+          Home
+        </a>
+
+        <a href="/about.html" class="hover:text-[#4F6F5F] transition">
+          About
+        </a>
+
+        <a href="/services.html" class="hover:text-[#4F6F5F] transition">
+          Services
+        </a>
+
+        <a href="/index.html#therapy" class="hover:text-[#4F6F5F] transition">
+          Therapy
+        </a>
+
+        <a href="/index.html#charges" class="hover:text-[#4F6F5F] transition">
+          Charges
+        </a>
+
+        <a href="/index.html#contact" class="hover:text-[#4F6F5F] transition">
+          Contact
+        </a>
+
+        <!-- MOBILE BUTTON -->
+        <button class="mt-3 bg-[#4F6F5F] hover:bg-[#3E5B4D] transition duration-300 text-white px-6 py-3 rounded-full text-sm w-full">
+          Book Appointment
+        </button>
+
+      </nav>
+
+    </div>
+
+  </div>
+
+</header>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    // TOGGLE MENU
+    menuBtn.addEventListener("click", function () {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // CLOSE MENU ON SCROLL
+    window.addEventListener("scroll", function () {
+
+      if (!mobileMenu.classList.contains("hidden")) {
+        mobileMenu.classList.add("hidden");
+      }
+
+    });
+
+  });
+
+</script>
+
+<!-- ================= HERO SECTION ================= -->
+
+<section class="relative overflow-hidden pt-[200px] pb-28">
+
+  <!-- GLOW -->
+  <div class="absolute top-[-250px] left-[-180px] 
+              w-[650px] h-[650px] 
+              bg-[#4F6F5F]/10 blur-[180px] rounded-full">
+  </div>
+
+  <div class="absolute bottom-[-250px] right-[-180px] 
+              w-[650px] h-[650px] 
+              bg-[#4F6F5F]/10 blur-[180px] rounded-full">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+
+    <!-- EQUAL GRID -->
+    <div class="grid lg:grid-cols-2 gap-14 items-center">
+
+      <!-- LEFT CONTENT -->
+      <div data-aos="fade-right" class="max-w-xl">
+
+        <!-- LABEL -->
+        <div class="inline-flex items-center gap-3 
+                    bg-[#EEF3EF] 
+                    border border-[#DDE5DF]
+                    rounded-full px-5 py-3">
+
+          <div class="w-2 h-2 rounded-full bg-[#4F6F5F]"></div>
+
+          <p class="uppercase tracking-[4px] text-[11px] text-[#4F6F5F]">
+            Psychological Care & Expertise
+          </p>
+
+        </div>
+
+        <!-- HEADING -->
+        <h1 class="heading-font 
+                   text-4xl sm:text-5xl lg:text-6xl 
+                   leading-[1.05] mt-8 text-[#2D3B34]">
+
+          Helping individuals navigate emotional wellbeing with empathy & evidence-based care.
+
+        </h1>
+
+        <!-- DESCRIPTION -->
+        <p class="mt-8 text-[17px] text-gray-600 leading-8">
+
+          Therapy is designed to provide a calm, supportive, and confidential space where individuals can better understand emotions, overcome personal challenges, and work toward healthier emotional balance and meaningful growth.
+
+        </p>
+
+        <!-- INFO CARDS -->
+        <div class="flex flex-wrap gap-5 mt-10">
+
+          <!-- CARD -->
+          <div class="glass rounded-[24px] px-6 py-5 soft-shadow">
+
+            <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+              Therapy Style
+            </p>
+
+            <h3 class="text-2xl mt-3 heading-font text-[#2D3B34]">
+              Personalized Care
+            </h3>
+
+          </div>
+
+          <!-- CARD -->
+          <div class="glass rounded-[24px] px-6 py-5 soft-shadow">
+
+            <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+              Focus
+            </p>
+
+            <h3 class="text-2xl mt-3 heading-font text-[#2D3B34]">
+              Emotional Wellness
+            </h3>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT IMAGE -->
+      <div 
+        data-aos="fade-left"
+        class="relative flex justify-center">
+
+        <!-- MAIN IMAGE -->
+        <div class="rounded-[36px] overflow-hidden soft-shadow w-full max-w-[560px]">
+
+          <img 
+            src="/images/Therapy1.jpg"
+            alt="Therapy Session"
+            class="w-full h-[620px] object-cover"
+          >
+
+        </div>
+
+        <!-- FLOATING CARD -->
+        <div class="absolute -bottom-8 -left-6 
+                    bg-[#4F6F5F] text-white 
+                    rounded-[28px] p-7 shadow-2xl 
+                    hidden lg:block max-w-[320px]">
+
+          <p class="uppercase tracking-[3px] text-[11px] text-white/70">
+            Therapeutic Approach
+          </p>
+
+          <h3 class="text-xl mt-3 heading-font leading-relaxed">
+
+            Compassionate, client-centered & emotionally supportive therapy.
+
+          </h3>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= THERAPY APPROACHES ================= -->
+
+<section class="relative py-32 overflow-hidden">
+
+  <!-- BG -->
+  <div class="absolute top-0 left-1/2 -translate-x-1/2 
+              w-[900px] h-[900px] 
+              bg-[#4F6F5F]/5 blur-[180px] rounded-full">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+
+    <!-- TITLE -->
+    <div class="text-center max-w-4xl mx-auto">
+
+      <p 
+        data-aos="fade-up"
+        class="uppercase tracking-[4px] text-[12px] text-[#6E8273]">
+
+        Areas of Expertise
+
+      </p>
+
+      <h2 
+        data-aos="fade-up"
+        data-aos-delay="100"
+        class="heading-font text-5xl lg:text-7xl mt-6 leading-[1]">
+
+        Evidence-based therapeutic approaches tailored to individual needs.
+
+      </h2>
+
+      <p 
+        data-aos="fade-up"
+        data-aos-delay="200"
+        class="mt-8 text-lg text-gray-600 leading-9">
+
+        Every individual experiences emotional difficulties differently, therefore therapy approaches are thoughtfully adapted according to emotional concerns, personality patterns, relationships, and life experiences.
+
+      </p>
+
+    </div>
+
+    <!-- CARDS -->
+    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8 mt-24">
+
+      <!-- CARD -->
+      <div 
+        data-aos="fade-up"
+        class="group glass rounded-[36px] overflow-hidden soft-shadow hover:-translate-y-2 transition duration-500">
+
+        <img 
+          src="/images/therapy2.jpg"
+          alt=""
+          class="w-full h-72 object-cover  group-hover:scale-105 transition duration-700"
+        >
+
+        <div class="p-9">
+
+          <div class="w-14 h-14 rounded-2xl bg-[#EEF3EF] 
+                      flex items-center justify-center text-2xl">
+
+            🧠
+
+          </div>
+
+          <h3 class="text-3xl mt-6 heading-font">
+            Cognitive Behaviour Therapy
+          </h3>
+
+          <p class="mt-5 text-gray-600 leading-8">
+
+            Helps individuals identify unhealthy thought patterns and behaviours while building healthier coping strategies and emotional responses.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div 
+        data-aos="fade-up"
+        data-aos-delay="100"
+        class="group glass rounded-[36px] overflow-hidden soft-shadow hover:-translate-y-2 transition duration-500">
+
+        <img 
+          src="/images/therapy3.jpg"
+          alt=""
+          class="w-full h-72 object-cover group-hover:scale-105 transition duration-700"
+        >
+
+        <div class="p-9">
+
+          <div class="w-14 h-14 rounded-2xl bg-[#EEF3EF] 
+                      flex items-center justify-center text-2xl">
+
+            🌿
+
+          </div>
+
+          <h3 class="text-3xl mt-6 heading-font">
+            Dialectical Behaviour Therapy
+          </h3>
+
+          <p class="mt-5 text-gray-600 leading-8">
+
+            Focuses on emotional regulation, mindfulness, distress tolerance, and healthier interpersonal communication.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div 
+        data-aos="fade-up"
+        data-aos-delay="200"
+        class="group glass rounded-[36px] overflow-hidden soft-shadow hover:-translate-y-2 transition duration-500">
+
+        <img 
+          src="/images/therapy4.jpg"
+          alt=""
+          class="w-full h-72 object-cover group-hover:scale-105 transition duration-700"
+        >
+
+        <div class="p-9">
+
+          <div class="w-14 h-14 rounded-2xl bg-[#EEF3EF] 
+                      flex items-center justify-center text-2xl">
+
+            ✨
+
+          </div>
+
+          <h3 class="text-3xl mt-6 heading-font">
+            Mindfulness Practices
+          </h3>
+
+          <p class="mt-5 text-gray-600 leading-8">
+
+            Encourages emotional awareness, stress reduction, present-moment focus, and emotional balance.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div 
+        data-aos="fade-up"
+        class="group glass rounded-[36px] overflow-hidden soft-shadow hover:-translate-y-2 transition duration-500">
+
+        <img 
+          src="/images/therapy5.jpg"
+          alt=""
+          class="w-full h-72 object-cover group-hover:scale-105 transition duration-700"
+        >
+
+        <div class="p-9">
+
+          <div class="w-14 h-14 rounded-2xl bg-[#EEF3EF] 
+                      flex items-center justify-center text-2xl">
+
+            🤝
+
+          </div>
+
+          <h3 class="text-3xl mt-6 heading-font">
+            Couples & Family Therapy
+          </h3>
+
+          <p class="mt-5 text-gray-600 leading-8">
+
+            Supports healthier communication, emotional connection, conflict resolution, and family understanding.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div 
+        data-aos="fade-up"
+        data-aos-delay="100"
+        class="group glass rounded-[36px] overflow-hidden soft-shadow hover:-translate-y-2 transition duration-500">
+
+        <img 
+          src="/images/therapy6.jpg"
+          alt=""
+          class="w-full h-72 object-cover group-hover:scale-105 transition duration-700"
+        >
+
+        <div class="p-9">
+
+          <div class="w-14 h-14 rounded-2xl bg-[#EEF3EF] 
+                      flex items-center justify-center text-2xl">
+
+            💛
+
+          </div>
+
+          <h3 class="text-3xl mt-6 heading-font">
+            Trauma Informed Practices
+          </h3>
+
+          <p class="mt-5 text-gray-600 leading-8">
+
+            A sensitive therapeutic approach designed to support individuals navigating emotional trauma and difficult experiences.
+
+          </p>
+
+        </div>
+
+      </div>
+
+      <!-- CARD -->
+      <div 
+        data-aos="fade-up"
+        data-aos-delay="200"
+        class="group glass rounded-[36px] overflow-hidden soft-shadow hover:-translate-y-2 transition duration-500">
+
+        <img 
+          src="/images/therapy7.jpg"
+          alt=""
+          class="w-full h-72 object-cover group-hover:scale-105 transition duration-700"
+        >
+
+        <div class="p-9">
+
+          <div class="w-14 h-14 rounded-2xl bg-[#EEF3EF] 
+                      flex items-center justify-center text-2xl">
+
+            🌙
+
+          </div>
+
+          <h3 class="text-3xl mt-6 heading-font">
+            Psychodynamic Therapy
+          </h3>
+
+          <p class="mt-5 text-gray-600 leading-8">
+
+            Explores emotional patterns, relationships, identity, self-awareness, and deeper psychological experiences.
+
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= MANAGEMENT SECTION ================= -->
+
+<section class="pb-32">
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="bg-[#4F6F5F] rounded-[50px] p-10 lg:p-16 shadow-2xl">
+
+      <!-- TITLE -->
+      <div class="text-center max-w-4xl mx-auto">
+
+        <p 
+          data-aos="fade-up"
+          class="uppercase tracking-[4px] text-[12px] text-white/70">
+
+          Management Of
+
+        </p>
+
+        <h2 
+          data-aos="fade-up"
+          data-aos-delay="100"
+          class="heading-font text-5xl lg:text-7xl mt-6 leading-[1] text-white">
+
+          Emotional & psychological concerns supported through therapy.
+
+        </h2>
+
+        <p 
+          data-aos="fade-up"
+          data-aos-delay="200"
+          class="mt-8 text-lg text-white/80 leading-9">
+
+          Therapy sessions provide emotional support, practical coping strategies, and a safe therapeutic space for individuals facing personal, emotional, behavioural, and relational difficulties.
+
+        </p>
+
+      </div>
+
+      <!-- GRID -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-20">
+
+        <!-- ITEM -->
+        <div data-aos="fade-up"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Depression & Anxiety
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="50"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            OCD & Overthinking
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="100"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Anger Management
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Stress Management
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="50"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Relationship Issues
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="100"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Women's Mental Health
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Parenting Concerns
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="50"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Academic Issues
+          </h3>
+
+        </div>
+
+        <div data-aos="fade-up" data-aos-delay="100"
+             class="bg-white/10 backdrop-blur-xl 
+             border border-white/10 
+             rounded-[30px] p-8">
+
+          <h3 class="text-2xl heading-font text-white">
+            Sleep Issues
+          </h3>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact" class="bg-[#E8ECE8] pt-20 pb-10">
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+
+      <!-- ABOUT -->
+      <div>
+
+        <h3 class="text-2xl font-semibold text-[#2D3B34]">
+          Mindful Living Clinic
+        </h3>
+
+        <p class="mt-5 text-gray-600 leading-8">
+          Providing compassionate psychological care through evidence-based therapeutic approaches for emotional well-being and healthier living.
+        </p>
+
+      </div>
+
+      <!-- QUALIFICATION -->
+      <div>
+
+        <h4 class="text-xl font-semibold text-[#2D3B34] mb-5">
+          Qualifications
+        </h4>
+
+        <ul class="space-y-3 text-gray-600">
+
+          <li>M.Phil Clinical Psychology (Gold Medalist)</li>
+          <li>M.A. Clinical Psychology</li>
+          <li>PhD (Pursuing)</li>
+
+        </ul>
+
+      </div>
+
+      <!-- LANGUAGES -->
+      <div>
+
+        <h4 class="text-xl font-semibold text-[#2D3B34] mb-5">
+          Languages
+        </h4>
+
+        <ul class="space-y-3 text-gray-600">
+
+          <li>English</li>
+          <li>Hindi</li>
+          <li>Bengali</li>
+
+        </ul>
+
+      </div>
+
+      <!-- CONTACT -->
+      <div>
+
+        <h4 class="text-xl font-semibold text-[#2D3B34] mb-5">
+          Contact
+        </h4>
+
+        <ul class="space-y-3 text-gray-600">
+
+          <!-- <li>📞 +91 97390 87734</li> -->
+          <li>Online & Offline Sessions</li>
+          <li>Available By Appointment</li>
+          <li>RCI Registered</li>
+
+        </ul>
+
+        <!-- SOCIAL ICONS -->
+        <div class="flex items-center gap-4 mt-6">
+
+
+          <!-- LINKEDIN -->
+          <a 
+            href="https://www.linkedin.com/in/angana-mukherjee-sharma-86a5557b/"
+            target="_blank"
+            class="w-11 h-11 rounded-full bg-[#4F6F5F] text-white flex items-center justify-center hover:scale-110 transition duration-300">
+
+            <i class="fa-brands fa-linkedin-in text-lg"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- BOTTOM -->
+    <div class="border-t border-gray-300 mt-16 pt-8 flex flex-col md:flex-row justify-between gap-5 text-gray-500 text-sm">
+
+      <p>
+        © 2026 Mindful Living Clinic. All rights reserved.
+      </p>
+
+      <p>
+        Designed with compassion & calm aesthetics.
+      </p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+
+  AOS.init({
+    duration: 1200,
+    once: true,
+    offset: 100
+  });
+
+</script>
+
+</body>
+</html>
