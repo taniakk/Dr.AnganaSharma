@@ -1,0 +1,1156 @@
+<!-- ================= CONSULTATION HOURS ================= -->
+<section id="consultation-hours" class="relative py-32 bg-[#F7F8F6] overflow-hidden">
+
+  <!-- BACKGROUND GLOW -->
+  <div class="absolute top-[-150px] right-[-100px] 
+              w-[450px] h-[450px] 
+              bg-[#8FAF9D]/10 blur-[130px] rounded-full">
+  </div>
+
+  <div class="absolute bottom-[-180px] left-[-100px] 
+              w-[400px] h-[400px] 
+              bg-[#DCCFC0]/20 blur-[130px] rounded-full">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10 relative z-10">
+
+    <!-- TOP -->
+    <div class="text-center max-w-4xl mx-auto">
+
+      <!-- LABEL -->
+      <div class="inline-flex items-center gap-3 
+                  bg-white/80 backdrop-blur-xl 
+                  border border-white/60 
+                  rounded-full px-5 py-2 shadow-sm">
+
+        <div class="w-2 h-2 rounded-full bg-[#4F6F5F]"></div>
+
+        <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+          Consultation Availability
+        </p>
+
+      </div>
+
+      <!-- HEADING -->
+      <h2 class="heading-font 
+                 text-5xl lg:text-6xl 
+                 leading-[1.05] 
+                 text-[#2D3B34] mt-8">
+
+        Thoughtfully scheduled sessions for personalized care.
+
+      </h2>
+
+      <!-- DESCRIPTION -->
+      <p class="mt-8 text-gray-600 text-lg leading-9 max-w-3xl mx-auto">
+
+        All consultations are conducted strictly through prior appointments to ensure privacy, focused therapeutic support, and a comfortable healing environment.
+
+      </p>
+
+    </div>
+
+    <!-- MAIN CARD -->
+    <div 
+      data-aos="fade-up"
+      class="mt-24 grid lg:grid-cols-[1.1fr_0.9fr] 
+             overflow-hidden rounded-[42px]
+             shadow-[0_20px_80px_rgba(0,0,0,0.06)]
+             bg-white/80 backdrop-blur-2xl border border-white/60">
+
+      <!-- LEFT SIDE -->
+      <div class="p-10 lg:p-14">
+
+        <!-- TITLE -->
+        <div class="flex items-center gap-4">
+
+          <div class="w-16 h-16 rounded-2xl 
+                      bg-[#EEF3EF] 
+                      flex items-center justify-center 
+                      text-3xl">
+
+            🕊
+
+          </div>
+
+          <div>
+
+            <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+              Weekly Availability
+            </p>
+
+            <h3 class="text-3xl font-semibold text-[#2D3B34] mt-2">
+              Consultation Schedule
+            </h3>
+
+          </div>
+
+        </div>
+
+        <!-- DAYS -->
+        <div class="mt-12 space-y-6">
+
+          <!-- MONDAY TO FRIDAY -->
+          <div class="flex items-center justify-between 
+                      py-6 border-b border-[#E6ECE7]">
+
+            <div>
+
+              <h4 class="text-2xl font-medium text-[#2D3B34]">
+                Monday – Friday
+              </h4>
+
+              <p class="text-gray-500 mt-2">
+                Available Through Prior Appointment
+              </p>
+
+            </div>
+
+            <span class="px-5 py-2 rounded-full 
+                         bg-[#EEF3EF] text-[#4F6F5F] text-sm font-medium">
+
+              Open
+
+            </span>
+
+          </div>
+
+          <!-- SATURDAY -->
+          <div class="flex items-center justify-between 
+                      py-6 border-b border-[#E6ECE7]">
+
+            <div>
+
+              <h4 class="text-2xl font-medium text-[#2D3B34]">
+                Saturday
+              </h4>
+
+              <p class="text-gray-500 mt-2">
+                Clinic Closed
+              </p>
+
+            </div>
+
+            <span class="px-5 py-2 rounded-full 
+                         bg-red-50 text-red-500 text-sm font-medium">
+
+              Closed
+
+            </span>
+
+          </div>
+
+          <!-- SUNDAY -->
+          <div class="flex items-center justify-between py-6">
+
+            <div>
+
+              <h4 class="text-2xl font-medium text-[#2D3B34]">
+                Sunday
+              </h4>
+
+              <p class="text-gray-500 mt-2">
+                Clinic Closed
+              </p>
+
+            </div>
+
+            <span class="px-5 py-2 rounded-full 
+                         bg-red-50 text-red-500 text-sm font-medium">
+
+              Closed
+
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="relative bg-[#4F6F5F] p-10 lg:p-14 text-white overflow-hidden">
+
+        <!-- GLOW -->
+        <div class="absolute top-[-100px] right-[-100px] 
+                    w-[250px] h-[250px] 
+                    bg-white/10 blur-[100px] rounded-full">
+        </div>
+
+        <!-- CONTENT -->
+        <div class="relative z-10">
+
+          <p class="uppercase tracking-[3px] text-[11px] text-white/60">
+            Appointment Information
+          </p>
+
+          <h3 class="text-4xl leading-tight font-semibold mt-6">
+
+            Every session is thoughtfully scheduled with care and attention.
+
+          </h3>
+
+          <p class="mt-8 text-white/80 leading-8">
+
+            Prior appointments help maintain confidentiality, uninterrupted consultation time, and a calm therapeutic environment tailored to each individual’s emotional wellbeing.
+
+          </p>
+
+          <!-- FEATURES -->
+          <div class="mt-10 space-y-5">
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Online & Offline Sessions Available
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                One-to-One Personalized Consultations
+              </p>
+
+            </div>
+
+            <div class="flex items-center gap-4">
+
+              <div class="w-10 h-10 rounded-full 
+                          bg-white/10 
+                          flex items-center justify-center">
+
+                ✓
+
+              </div>
+
+              <p class="text-white/80">
+                Safe, Confidential & Supportive Space
+              </p>
+
+            </div>
+
+          </div>
+
+          <!-- BUTTON -->
+          <a href="#contact"
+             class="inline-flex items-center gap-3 
+                    mt-12 bg-white text-[#2D3B34]
+                    px-7 py-4 rounded-full
+                    hover:bg-[#EEF3EF]
+                    transition duration-300">
+
+            <span>
+              Book Appointment
+            </span>
+
+            <span>
+              →
+            </span>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>   
+
+
+<!-- ================= PREMIUM MANAGEMENT SECTION ================= -->
+<section class="relative py-24 lg:py-32 overflow-hidden bg-[#F6F4EF]">
+
+  <!-- PREMIUM GLOW -->
+  <div class="absolute top-[-250px] left-[-150px] 
+              w-[600px] h-[600px] 
+              bg-[#8FAF9D]/10 blur-[160px] rounded-full">
+  </div>
+
+  <div class="absolute bottom-[-250px] right-[-150px] 
+              w-[600px] h-[600px] 
+              bg-[#DCCFC0]/20 blur-[160px] rounded-full">
+  </div>
+
+  <!-- NOISE EFFECT -->
+  <div class="absolute inset-0 opacity-[0.03] 
+              bg-[url('https://www.transparenttextures.com/patterns/noise.png')]">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 relative z-10">
+
+    <!-- TOP CONTENT -->
+    <div class="text-center max-w-4xl mx-auto">
+
+      <!-- LABEL -->
+      <div class="inline-flex items-center gap-3 
+                  bg-white/80 backdrop-blur-xl 
+                  border border-white/60 
+                  rounded-full px-5 py-3 shadow-sm">
+
+        <div class="w-2 h-2 rounded-full bg-[#4F6F5F]"></div>
+
+        <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+          Areas Managed
+        </p>
+
+      </div>
+
+      <!-- HEADING -->
+      <h2 class="heading-font 
+                 text-4xl sm:text-5xl lg:text-6xl 
+                 leading-[1.05] text-[#2D3B34] mt-8">
+
+        Emotional support tailored for life’s most challenging moments.
+
+      </h2>
+
+      <!-- DESCRIPTION -->
+      <p class="mt-8 text-[16px] sm:text-lg leading-8 sm:leading-9 
+                text-gray-600 max-w-3xl mx-auto">
+
+        Therapy sessions are thoughtfully designed to help individuals better understand emotions, build emotional resilience, improve relationships, and navigate life with greater clarity, confidence, and balance.
+
+      </p>
+
+    </div>
+
+    <!-- MAIN PREMIUM CARD -->
+    <div class="mt-20 lg:mt-24 rounded-[40px] overflow-hidden 
+                bg-white/70 backdrop-blur-2xl
+                border border-white/60
+                shadow-[0_25px_90px_rgba(0,0,0,0.06)]">
+
+      <div class="grid lg:grid-cols-[0.9fr_1.1fr]">
+
+        <!-- LEFT SIDE -->
+        <div class="relative bg-[#4F6F5F] text-white p-10 lg:p-14 overflow-hidden">
+
+          <!-- INNER GLOW -->
+          <div class="absolute top-[-120px] right-[-120px] 
+                      w-[300px] h-[300px] 
+                      bg-white/10 blur-[120px] rounded-full">
+          </div>
+
+          <div class="relative z-10">
+
+            <p class="uppercase tracking-[3px] text-[11px] text-white/60">
+              Compassionate Psychological Care
+            </p>
+
+            <h3 class="text-4xl lg:text-5xl leading-tight mt-6 heading-font">
+
+              Supporting emotional wellbeing with empathy, trust & evidence-based therapy.
+
+            </h3>
+
+            <p class="mt-8 text-white/80 leading-8 text-[16px]">
+
+              Every individual experiences emotional challenges differently. Therapy focuses on creating a calm, supportive, and confidential environment where healing and personal growth can naturally begin.
+
+            </p>
+
+            <!-- FEATURE BOX -->
+            <div class="mt-10 bg-white/10 backdrop-blur-xl 
+                        border border-white/10
+                        rounded-[28px] p-7">
+
+              <div class="flex items-start gap-5">
+
+                <div class="w-14 h-14 rounded-2xl 
+                            bg-white/10 
+                            flex items-center justify-center text-2xl">
+
+                  🌿
+
+                </div>
+
+                <div>
+
+                  <h4 class="text-2xl font-semibold">
+                    Personalized Support
+                  </h4>
+
+                  <p class="mt-2 text-white/70 leading-7">
+
+                    Therapy approaches tailored to emotional needs, life experiences, and personal growth goals.
+
+                  </p>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="p-8 sm:p-10 lg:p-12">
+
+          <div class="grid sm:grid-cols-2 gap-5">
+
+            <!-- CARD -->
+            <div class="group rounded-[30px] p-7 
+                        bg-[#F8F6F2]
+                        border border-[#ECE7DE]
+                        hover:bg-white
+                        hover:-translate-y-2
+                        hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]
+                        transition-all duration-500">
+
+              <div class="w-14 h-14 rounded-2xl 
+                          bg-[#EEF3EF]
+                          flex items-center justify-center text-2xl">
+                🌱
+              </div>
+
+              <h3 class="text-2xl mt-6 text-[#2D3B34] font-semibold">
+                Depression
+              </h3>
+
+              <p class="mt-4 text-gray-600 leading-7 text-[15px]">
+                Emotional support focused on healing, restoring motivation, and improving emotional balance.
+              </p>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="group rounded-[30px] p-7 
+                        bg-[#4F6F5F]
+                        text-white
+                        hover:-translate-y-2
+                        hover:shadow-[0_25px_60px_rgba(79,111,95,0.25)]
+                        transition-all duration-500">
+
+              <div class="w-14 h-14 rounded-2xl 
+                          bg-white/10
+                          flex items-center justify-center text-2xl">
+                ✨
+              </div>
+
+              <h3 class="text-2xl mt-6 font-semibold">
+                Anxiety
+              </h3>
+
+              <p class="mt-4 text-white/80 leading-7 text-[15px]">
+                Helping individuals manage fear, overthinking, stress, and emotional overwhelm.
+              </p>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="group rounded-[30px] p-7 
+                        bg-[#F8F6F2]
+                        border border-[#ECE7DE]
+                        hover:bg-white
+                        hover:-translate-y-2
+                        hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]
+                        transition-all duration-500">
+
+              <div class="w-14 h-14 rounded-2xl 
+                          bg-[#EEF3EF]
+                          flex items-center justify-center text-2xl">
+                🕊
+              </div>
+
+              <h3 class="text-2xl mt-6 text-[#2D3B34] font-semibold">
+                OCD
+              </h3>
+
+              <p class="mt-4 text-gray-600 leading-7 text-[15px]">
+                Evidence-based support for intrusive thoughts and compulsive behaviours.
+              </p>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="group rounded-[30px] p-7 
+                        bg-[#F8F6F2]
+                        border border-[#ECE7DE]
+                        hover:bg-white
+                        hover:-translate-y-2
+                        hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]
+                        transition-all duration-500">
+
+              <div class="w-14 h-14 rounded-2xl 
+                          bg-[#EEF3EF]
+                          flex items-center justify-center text-2xl">
+                ☀
+              </div>
+
+              <h3 class="text-2xl mt-6 text-[#2D3B34] font-semibold">
+                Stress Management
+              </h3>
+
+              <p class="mt-4 text-gray-600 leading-7 text-[15px]">
+                Building emotional resilience and healthier coping mechanisms.
+              </p>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="group rounded-[30px] p-7 
+                        bg-[#F8F6F2]
+                        border border-[#ECE7DE]
+                        hover:bg-white
+                        hover:-translate-y-2
+                        hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]
+                        transition-all duration-500">
+
+              <div class="w-14 h-14 rounded-2xl 
+                          bg-[#EEF3EF]
+                          flex items-center justify-center text-2xl">
+                🤍
+              </div>
+
+              <h3 class="text-2xl mt-6 text-[#2D3B34] font-semibold">
+                Relationship Issues
+              </h3>
+
+              <p class="mt-4 text-gray-600 leading-7 text-[15px]">
+                Supporting communication, emotional connection, and healthier relationships.
+              </p>
+
+            </div>
+
+            <!-- CARD -->
+            <div class="group rounded-[30px] p-7 
+                        bg-[#F8F6F2]
+                        border border-[#ECE7DE]
+                        hover:bg-white
+                        hover:-translate-y-2
+                        hover:shadow-[0_20px_50px_rgba(0,0,0,0.06)]
+                        transition-all duration-500">
+
+              <div class="w-14 h-14 rounded-2xl 
+                          bg-[#EEF3EF]
+                          flex items-center justify-center text-2xl">
+                🌙
+              </div>
+
+              <h3 class="text-2xl mt-6 text-[#2D3B34] font-semibold">
+                Sleep Issues
+              </h3>
+
+              <p class="mt-4 text-gray-600 leading-7 text-[15px]">
+                Addressing emotional and behavioural patterns affecting sleep quality.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+<!-- ================= CHARGES ================= -->
+
+<section id="charges" class="py-28">
+
+  <div class="max-w-5xl mx-auto px-6">
+
+    <div class="bg-[#4F6F5F] rounded-[40px] p-14 relative overflow-hidden">
+
+      <div class="absolute top-0 right-0 w-[300px] h-[300px] bg-white/10 blur-[100px] rounded-full"></div>
+
+      <div class="relative z-10">
+
+        <p class="uppercase tracking-[4px] text-white/70 text-sm mb-5">
+          Session Charges
+        </p>
+
+        <h2 class="heading-font text-5xl text-white">
+          Therapy Sessions
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8 mt-14">
+
+          <!-- CARD -->
+          <div class="bg-white/10 rounded-3xl p-8 border border-white/10">
+
+            <h3 class="text-2xl text-white font-semibold">
+              Individual Session
+            </h3>
+
+            <p class="text-5xl text-white mt-6 font-light">
+              ₹2000
+            </p>
+
+            <p class="mt-4 text-white/70">
+              For clients residing in India
+            </p>
+
+          </div>
+
+          <!-- CARD -->
+          <div class="bg-white/10 rounded-3xl p-8 border border-white/10">
+
+            <h3 class="text-2xl text-white font-semibold">
+              Couple / Family Therapy
+            </h3>
+
+            <p class="text-5xl text-white mt-6 font-light">
+              ₹3000
+            </p>
+
+            <p class="mt-4 text-white/70">
+              Relationship & family focused sessions
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ✨ CONSULTATION LOCATIONS SECTION -->
+<section class="relative py-20 md:py-28 bg-[#F7F8F7] overflow-hidden">
+
+  <!-- PREMIUM GLOW -->
+  <div class="absolute top-[-120px] left-[-120px]
+              w-[320px] h-[320px]
+              bg-[#40584B]/20 blur-[140px] rounded-full"></div>
+
+  <div class="absolute bottom-[-120px] right-[-120px]
+              w-[320px] h-[320px]
+              bg-[#40584B]/20 blur-[140px] rounded-full"></div>
+
+  <div class="relative max-w-6xl mx-auto px-4 md:px-6">
+
+    <!-- HEADING -->
+    <div class="text-center mb-14 md:mb-20">
+
+      <span class="inline-flex items-center gap-2
+                   px-4 md:px-5 py-2 rounded-full
+                   bg-white border border-[#40584B]/10
+                   text-[#40584B]
+                   text-xs md:text-sm
+                   tracking-[0.18em]
+                   uppercase shadow-sm">
+
+        Consultation Locations
+      </span>
+
+      <h2 class="mt-5 md:mt-6 text-3xl md:text-5xl font-light text-slate-900 leading-tight">
+        Clinical <span class="font-semibold text-[#40584B]">Consultations</span>
+      </h2>
+
+      <!-- COMMON TAG -->
+      <div class="mt-5 inline-flex items-center px-4 py-2 rounded-full
+                  bg-[#40584B]/10 text-[#40584B]
+                  border border-[#40584B]/10
+                  text-[11px] tracking-[0.15em] uppercase">
+        By Prior Appointment Only
+      </div>
+
+      <p class="mt-6 max-w-2xl mx-auto text-slate-600 leading-relaxed text-base md:text-lg">
+        Compassionate psychological care through trusted clinical spaces and online platforms
+        focused on confidentiality, comfort, and professional support.
+      </p>
+
+    </div>
+
+    <!-- CARDS -->
+    <div class="grid md:grid-cols-3 gap-6 md:gap-8">
+
+      <!-- CARD 1 -->
+      <div class="group bg-white/90 backdrop-blur-xl border border-slate-200/80
+                  rounded-[28px] p-6 md:p-8 shadow-[0_10px_50px_rgba(0,0,0,0.05)]
+                  hover:shadow-[0_20px_70px_rgba(64,88,75,0.12)]
+                  hover:-translate-y-1 transition-all duration-500">
+
+        <div class="flex flex-col items-center text-center gap-5">
+
+          <div class="w-16 h-16 rounded-2xl bg-[#40584B]/10 border border-[#40584B]/10
+                      flex items-center justify-center text-[#40584B]
+                      group-hover:scale-110 transition-all duration-500">
+            <i class="fa-solid fa-hospital text-2xl"></i>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-slate-900 mb-2">
+              Hrydyarambh Clinic
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              In-person psychological consultations in a calm and supportive clinical environment.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="group bg-white/90 backdrop-blur-xl border border-slate-200/80
+                  rounded-[28px] p-6 md:p-8 shadow-[0_10px_50px_rgba(0,0,0,0.05)]
+                  hover:shadow-[0_20px_70px_rgba(64,88,75,0.12)]
+                  hover:-translate-y-1 transition-all duration-500">
+
+        <div class="flex flex-col items-center text-center gap-5">
+
+          <div class="w-16 h-16 rounded-2xl bg-[#40584B]/10 border border-[#40584B]/10
+                      flex items-center justify-center text-[#40584B]
+                      group-hover:scale-110 transition-all duration-500">
+            <i class="fa-solid fa-user-doctor text-2xl"></i>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-slate-900 mb-2">
+              Dr. Vani’s Clinic
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Vile Parle East-based clinical consultations with focused therapeutic care and privacy.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="group bg-white/90 backdrop-blur-xl border border-slate-200/80
+                  rounded-[28px] p-6 md:p-8 shadow-[0_10px_50px_rgba(0,0,0,0.05)]
+                  hover:shadow-[0_20px_70px_rgba(64,88,75,0.12)]
+                  hover:-translate-y-1 transition-all duration-500">
+
+        <div class="flex flex-col items-center text-center gap-5">
+
+          <div class="w-16 h-16 rounded-2xl bg-[#40584B]/10 border border-[#40584B]/10
+                      flex items-center justify-center text-[#40584B]
+                      group-hover:scale-110 transition-all duration-500">
+            <i class="fa-solid fa-laptop-medical text-2xl"></i>
+          </div>
+
+          <div>
+            <h3 class="text-xl font-semibold text-slate-900 mb-2">
+              Sugun Hospital & Therapheal
+            </h3>
+            <p class="text-slate-600 text-sm leading-relaxed">
+              Integrated online mental health platform offering secure and accessible therapy sessions.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ================= BOOK APPOINTMENT SECTION ================= -->
+<section id="contact" class="relative py-24 lg:py-32 overflow-hidden bg-[#F6F8F6]">
+
+  <!-- PREMIUM GLOW -->
+  <div class="absolute top-[-180px] left-[-120px] 
+              w-[500px] h-[500px] 
+              bg-[#8FAF9D]/10 blur-[140px] rounded-full">
+  </div>
+
+  <div class="absolute bottom-[-200px] right-[-120px] 
+              w-[500px] h-[500px] 
+              bg-[#D8E1DA]/40 blur-[150px] rounded-full">
+  </div>
+
+  <div class="max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 relative z-10">
+
+    <!-- TOP -->
+    <div class="text-center max-w-3xl mx-auto">
+
+      <!-- LABEL -->
+      <div class="inline-flex items-center gap-3 
+                  bg-white border border-[#E2E8E3]
+                  rounded-full px-5 py-2 shadow-sm">
+
+        <div class="w-2 h-2 rounded-full bg-[#4F6F5F]"></div>
+
+        <p class="uppercase tracking-[3px] text-[10px] text-[#6E8273]">
+          Book Appointment
+        </p>
+
+      </div>
+
+      <!-- HEADING -->
+      <h2 class="heading-font 
+                 text-4xl sm:text-5xl lg:text-6xl 
+                 leading-[1.05] text-[#2D3B34] mt-8">
+
+        Begin your healing journey in a calm & supportive space.
+
+      </h2>
+
+      <!-- DESCRIPTION -->
+      <p class="mt-7 text-[17px] text-gray-600 leading-8">
+
+        Schedule a confidential therapy consultation tailored to your emotional wellbeing, personal growth, and mental wellness needs.
+
+      </p>
+
+    </div>
+
+    <!-- MAIN CARD -->
+    <div 
+      data-aos="fade-up"
+      class="mt-16 lg:mt-20 
+             grid lg:grid-cols-[1.05fr_0.95fr]
+             rounded-[38px] overflow-hidden
+             border border-white/70
+             bg-white/70 backdrop-blur-2xl
+             shadow-[0_20px_80px_rgba(0,0,0,0.06)]">
+
+      <!-- LEFT FORM -->
+      <div class="p-7 sm:p-10 lg:p-14 bg-white/70">
+
+        <div class="flex items-center justify-between gap-4 flex-wrap">
+
+          <div>
+
+            <p class="uppercase tracking-[3px] text-[11px] text-[#6E8273]">
+              Appointment Form
+            </p>
+
+            <h3 class="text-3xl mt-3 font-semibold text-[#2D3B34]">
+              Request A Session
+            </h3>
+
+          </div>
+
+          <div class="hidden sm:flex items-center gap-2 
+                      bg-[#EEF3EF] px-4 py-2 rounded-full">
+
+            <div class="w-2 h-2 rounded-full bg-green-600"></div>
+
+            <p class="text-sm text-[#4F6F5F]">
+              Accepting Appointments
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- FORM -->
+        <form class="mt-10 grid gap-6">
+
+          <!-- NAME -->
+          <div>
+
+            <label class="block text-sm text-[#6E8273] mb-3">
+              Full Name
+            </label>
+
+            <input 
+              type="text"
+              placeholder="Enter your full name"
+              class="w-full h-16 px-6 rounded-2xl
+                     border border-[#E2E8E3]
+                     bg-[#FAFBFA]
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300">
+
+          </div>
+
+          <!-- EMAIL -->
+          <div class="grid sm:grid-cols-2 gap-6">
+
+            <div>
+
+              <label class="block text-sm text-[#6E8273] mb-3">
+                Email Address
+              </label>
+
+              <input 
+                type="email"
+                placeholder="Your email"
+                class="w-full h-16 px-6 rounded-2xl
+                       border border-[#E2E8E3]
+                       bg-[#FAFBFA]
+                       focus:outline-none
+                       focus:border-[#4F6F5F]
+                       transition duration-300">
+
+            </div>
+
+            <div>
+
+              <label class="block text-sm text-[#6E8273] mb-3">
+                Phone Number
+              </label>
+
+              <input 
+                type="tel"
+                placeholder="Your phone number"
+                class="w-full h-16 px-6 rounded-2xl
+                       border border-[#E2E8E3]
+                       bg-[#FAFBFA]
+                       focus:outline-none
+                       focus:border-[#4F6F5F]
+                       transition duration-300">
+
+            </div>
+
+          </div>
+
+          <!-- SESSION -->
+          <div>
+
+            <label class="block text-sm text-[#6E8273] mb-3">
+              Consultation Preference
+            </label>
+
+            <select 
+              class="w-full h-16 px-6 rounded-2xl
+                     border border-[#E2E8E3]
+                     bg-[#FAFBFA]
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300">
+
+              <option>Select Consultation Type</option>
+              <option>Online Consultation</option>
+              <option>In-Person Consultation</option>
+
+            </select>
+
+          </div>
+
+          <!-- MESSAGE -->
+          <div>
+
+            <label class="block text-sm text-[#6E8273] mb-3">
+              Message
+            </label>
+
+            <textarea 
+              rows="5"
+              placeholder="Share your concerns or preferred appointment timing..."
+              class="w-full px-6 py-5 rounded-2xl
+                     border border-[#E2E8E3]
+                     bg-[#FAFBFA]
+                     resize-none
+                     focus:outline-none
+                     focus:border-[#4F6F5F]
+                     transition duration-300"></textarea>
+
+          </div>
+
+          <!-- BUTTON -->
+          <button 
+            type="submit"
+            class="group mt-2 inline-flex items-center justify-center gap-3
+                   bg-[#4F6F5F]
+                   hover:bg-[#2F473B]
+                   text-white h-16 px-8 rounded-full
+                   transition duration-300
+                   shadow-lg shadow-[#4F6F5F]/20">
+
+            <span class="tracking-wide">
+              Submit Appointment Request
+            </span>
+
+            <span class="group-hover:translate-x-1 transition duration-300">
+              →
+            </span>
+
+          </button>
+
+        </form>
+
+      </div>
+
+      <!-- RIGHT SIDE -->
+      <div class="relative bg-[#4F6F5F] p-7 sm:p-10 lg:p-14 text-white overflow-hidden">
+
+        <!-- INNER GLOW -->
+        <div class="absolute top-[-120px] right-[-100px]
+                    w-[280px] h-[280px]
+                    bg-white/10 blur-[120px] rounded-full">
+        </div>
+
+        <div class="relative z-10">
+
+          <!-- IMAGE -->
+          <div class="overflow-hidden rounded-[30px]">
+
+            <img 
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
+              alt="Therapy Consultation"
+              class="w-full h-[240px] sm:h-[300px] object-cover hover:scale-105 transition duration-700">
+
+          </div>
+
+          <!-- CONTENT -->
+          <div class="mt-10">
+
+            <p class="uppercase tracking-[3px] text-[11px] text-white/60">
+              Safe • Confidential • Supportive
+            </p>
+
+            <h3 class="text-3xl sm:text-4xl leading-tight font-semibold mt-5">
+
+              Therapy designed around emotional comfort, trust & personal growth.
+
+            </h3>
+
+            <p class="mt-7 text-white/80 leading-8 text-[15px] sm:text-base">
+
+              Every session is conducted in a calm, respectful, and compassionate environment where individuals can openly express emotions and work toward healthier emotional wellbeing.
+
+            </p>
+
+          </div>
+
+          <!-- FEATURES -->
+          <div class="mt-10 space-y-5">
+
+            <!-- ITEM -->
+            <div class="flex items-start gap-4">
+
+              <div class="w-11 h-11 rounded-full 
+                          bg-white/10 border border-white/10
+                          flex items-center justify-center shrink-0">
+
+                ✓
+
+              </div>
+
+              <div>
+
+                <h4 class="text-lg font-medium">
+                  Personalized Sessions
+                </h4>
+
+                <p class="text-white/70 text-sm mt-1">
+                  Tailored therapeutic support for individual emotional needs.
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- ITEM -->
+            <div class="flex items-start gap-4">
+
+              <div class="w-11 h-11 rounded-full 
+                          bg-white/10 border border-white/10
+                          flex items-center justify-center shrink-0">
+
+                ✓
+
+              </div>
+
+              <div>
+
+                <h4 class="text-lg font-medium">
+                  Flexible Consultation Modes
+                </h4>
+
+                <p class="text-white/70 text-sm mt-1">
+                  Convenient online and in-person appointment options.
+                </p>
+
+              </div>
+
+            </div>
+
+            <!-- ITEM -->
+            <div class="flex items-start gap-4">
+
+              <div class="w-11 h-11 rounded-full 
+                          bg-white/10 border border-white/10
+                          flex items-center justify-center shrink-0">
+
+                ✓
+
+              </div>
+
+              <div>
+
+                <h4 class="text-lg font-medium">
+                  Confidential & Ethical Care
+                </h4>
+
+                <p class="text-white/70 text-sm mt-1">
+                  A safe therapeutic environment built on trust and empathy.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+  <!-- Google Map -->
+        <div class="mt-16">
+
+            <div class="bg-white rounded-[40px]
+                        border border-[#E6E1D7]
+                        shadow-[0_20px_60px_rgba(45,59,52,0.08)]
+                        overflow-hidden">
+
+                <div class="p-8 border-b border-[#ECE7DE]">
+                    <h3 class="text-2xl text-[#2D3B34]">
+                        Clinic Location
+                    </h3>
+                </div>
+
+                <!-- Replace iframe with actual Google Map -->
+                <div class="h-[450px] bg-[#EEF2EC]
+                            flex items-center justify-center
+                            text-[#6E8273] text-lg">
+                    Google Map Integration Here
+                </div>
+
+            </div>
+
+        </div>

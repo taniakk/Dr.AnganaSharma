@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Clinical Psychology & Psychotherapy Clinic</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
+   
+
+  <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+ <style>
+
+    body{
+      font-family:'Inter',sans-serif;
+      background:#F6F4EF;
+      color:#263238;
+      overflow-x:hidden;
+    }
+
+    .heading-font{
+      font-family:'Cormorant Garamond',serif;
+    }
+
+    .glass{
+      background:rgba(255,255,255,0.55);
+      backdrop-filter:blur(14px);
+      border:1px solid rgba(255,255,255,0.35);
+    }
+
+    .soft-shadow{
+      box-shadow:0 12px 45px rgba(79,111,95,0.08);
+    }
+
+    .hero-bg{
+      background:
+      radial-gradient(circle at top left, rgba(143,175,157,0.20), transparent 30%),
+      radial-gradient(circle at bottom right, rgba(220,207,192,0.30), transparent 30%);
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+  </style>
+<body>
+
+      
+  
+<!-- ================= NAVBAR ================= -->
+ <header class="fixed top-4 left-0 w-full z-50">
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-10 py-4">
+
+    <div class="glass rounded-2xl lg:rounded-full px-5 sm:px-7 py-4 flex items-center justify-between soft-shadow">
+
+      <!-- LOGO -->
+  <div class="flex items-center">
+  <img 
+  src="https://ik.imagekit.io/iuiy6mihw/Dr.logo.png" 
+  alt="Dr Angana Logo"
+  class="h-12 sm:h-14 lg:h-16 w-auto object-contain"
+/>
+</div>
+
+      <!-- DESKTOP MENU -->
+      <nav class="hidden lg:flex items-center gap-10 text-[15px] text-gray-700">
+
+        <a href="/index.html" class="relative group">
+          Home
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/about.html" class="relative group">
+          About
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/services.html" class="relative group">
+          Services
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/index.html#specializations" class="relative group">
+          
+Specializations
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/index.html#faqs" class="relative group">
+          FAQ
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+        <a href="/contact.html" class="relative group">
+          Contact
+          <span class="absolute left-0 -bottom-1 w-0 h-[1.5px] bg-[#4F6F5F] transition-all duration-300 group-hover:w-full"></span>
+        </a>
+
+      </nav>
+
+      <!-- RIGHT SIDE -->
+      <div class="flex items-center gap-3">
+
+        <!-- DESKTOP BUTTON -->
+        <a href="/contact.html" class="hidden lg:block bg-[#4F6F5F] hover:bg-[#3E5B4D] transition duration-300 text-white px-6 py-3 rounded-full text-sm shadow-lg shadow-[#4F6F5F]/20">
+          Book Appointment
+        </a>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button 
+          id="menu-btn"
+          class="lg:hidden w-11 h-11 rounded-full bg-[#4F6F5F] text-white flex items-center justify-center">
+
+          <!-- MENU ICON -->
+          <svg xmlns="http://www.w3.org/2000/svg"
+               class="w-6 h-6"
+               fill="none"
+               viewBox="0 0 24 24"
+               stroke="currentColor">
+
+            <path stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16" />
+
+          </svg>
+
+        </button>
+
+      </div>
+
+    </div>
+
+    <!-- MOBILE MENU -->
+    <div 
+      id="mobile-menu"
+      class="hidden lg:hidden mt-4 glass rounded-3xl p-6 soft-shadow">
+
+      <nav class="flex flex-col gap-5 text-gray-700 text-[15px]">
+
+        <a href="/index.html" class="hover:text-[#4F6F5F] transition">
+          Home
+        </a>
+
+        <a href="/about.html" class="hover:text-[#4F6F5F] transition">
+          About
+        </a>
+
+        <a href="/services.html" class="hover:text-[#4F6F5F] transition">
+          Services
+        </a>
+
+        <a href="/index.html#specializations" class="hover:text-[#4F6F5F] transition">
+          Specializations
+        </a>
+
+        <a href="/index.html#faqs" class="hover:text-[#4F6F5F] transition">
+          FAQ
+        </a>
+
+        <a href="/contact.html" class="hover:text-[#4F6F5F] transition">
+          Contact
+        </a>
+
+        <!-- MOBILE BUTTON -->
+        <a href="/contact.html" class="mt-3 bg-[#4F6F5F] hover:bg-[#3E5B4D] transition duration-300 text-white px-6 py-3 rounded-full text-sm w-full inline-block text-center">
+          Book Appointment
+        </a>
+
+      </nav>
+
+    </div>
+
+  </div>
+
+</header>
+
+<!-- ================= JAVASCRIPT ================= -->
+
+<script>
+
+  document.addEventListener("DOMContentLoaded", function () {
+
+    const menuBtn = document.getElementById("menu-btn");
+    const mobileMenu = document.getElementById("mobile-menu");
+
+    // TOGGLE MENU
+    menuBtn.addEventListener("click", function () {
+      mobileMenu.classList.toggle("hidden");
+    });
+
+    // CLOSE MENU ON SCROLL
+    window.addEventListener("scroll", function () {
+
+      if (!mobileMenu.classList.contains("hidden")) {
+        mobileMenu.classList.add("hidden");
+      }
+
+    });
+
+  });
+
+</script>
+
+<!-- AOS CSS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+
+<section class="relative py-32 bg-[#F8F6F1] overflow-hidden">
+
+    <!-- Background Elements -->
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-[#D8E2D4]/40 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-[#E7E2D7]/50 rounded-full blur-3xl"></div>
+
+    <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+
+        <!-- Heading -->
+        <div class="text-center max-w-4xl mx-auto mb-20 mt-4"
+             data-aos="fade-up">
+
+            <span class="uppercase tracking-[4px] text-[#6E8273] text-xs font-medium">
+                Contact & Appointments
+            </span>
+
+            <h2 class="mt-5 text-5xl md:text-6xl text-[#2D3B34] font-light">
+                Begin Your Journey
+            </h2>
+
+            <p class="mt-6 text-lg text-[#6E8273] leading-relaxed">
+                Whether you are seeking therapy, psychological assessment,
+                consultation, or clinical supervision, you are welcome to get in touch.
+                All enquiries are handled with professionalism and confidentiality.
+            </p>
+        </div>
+
+        <div class="grid lg:grid-cols-5 gap-10">
+
+            <!-- Contact Form -->
+            <div class="lg:col-span-3 bg-white rounded-[40px]
+                        border border-[#E6E1D7]
+                        shadow-[0_20px_60px_rgba(45,59,52,0.08)]
+                        p-10 md:p-12"
+                 data-aos="fade-right"
+                 data-aos-delay="100">
+
+                <h3 class="text-3xl text-[#2D3B34] mb-8"
+                    data-aos="fade-up"
+                    data-aos-delay="150">
+                    Contact / Enquiry Form
+                </h3>
+
+                <form class="space-y-6">
+
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <label class="block text-[#2D3B34] mb-2">
+                            Full Name
+                        </label>
+                        <input type="text"
+                               class="w-full rounded-2xl border border-[#DAD6CC]
+                                      px-5 py-4 focus:outline-none
+                                      focus:border-[#6E8273]">
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6"
+                         data-aos="fade-up"
+                         data-aos-delay="250">
+
+                        <div>
+                            <label class="block text-[#2D3B34] mb-2">
+                                Email Address
+                            </label>
+                            <input type="email"
+                                   class="w-full rounded-2xl border border-[#DAD6CC]
+                                          px-5 py-4 focus:outline-none
+                                          focus:border-[#6E8273]">
+                        </div>
+
+                        <div>
+                            <label class="block text-[#2D3B34] mb-2">
+                                Phone Number
+                            </label>
+                            <input type="tel"
+                                   class="w-full rounded-2xl border border-[#DAD6CC]
+                                          px-5 py-4 focus:outline-none
+                                          focus:border-[#6E8273]">
+                        </div>
+
+                    </div>
+
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <label class="block text-[#2D3B34] mb-2">
+                            Reason for Inquiry
+                        </label>
+
+                        <select class="w-full rounded-2xl border border-[#DAD6CC]
+                                       px-5 py-4 focus:outline-none
+                                       focus:border-[#6E8273]">
+                            <option>Select</option>
+                            <option>Therapy</option>
+                            <option>Psychological Assessment</option>
+                            <option>Clinical Supervision</option>
+                            <option>Consultation</option>
+                            <option>Other</option>
+                        </select>
+                    </div>
+
+                    <div class="grid md:grid-cols-2 gap-6"
+                         data-aos="fade-up"
+                         data-aos-delay="350">
+
+                        <div>
+                            <label class="block text-[#2D3B34] mb-2">
+                                Referred By
+                            </label>
+
+                            <input type="text"
+                                   class="w-full rounded-2xl border border-[#DAD6CC]
+                                          px-5 py-4 focus:outline-none
+                                          focus:border-[#6E8273]">
+                        </div>
+
+                        <div>
+                            <label class="block text-[#2D3B34] mb-2">
+                                Referred For
+                            </label>
+
+                            <input type="text"
+                                   class="w-full rounded-2xl border border-[#DAD6CC]
+                                          px-5 py-4 focus:outline-none
+                                          focus:border-[#6E8273]">
+                        </div>
+
+                    </div>
+
+                    <button type="submit"
+                            data-aos="zoom-in"
+                            data-aos-delay="400"
+                            class="bg-[#6E8273] text-white px-8 py-4 rounded-full
+                                   hover:bg-[#5C6D61] transition-all duration-300">
+                        Submit Enquiry
+                    </button>
+
+                </form>
+
+            </div>
+
+            <!-- Clinic Information -->
+            <div class="lg:col-span-2">
+
+                <div class="bg-gradient-to-br from-[#6E8273] to-[#4F6255]
+                            text-white rounded-[40px]
+                            p-10 h-full"
+                     data-aos="fade-left"
+                     data-aos-delay="200">
+
+                    <h3 class="text-3xl mb-8">
+                        Clinic Information
+                    </h3>
+
+                    <div class="space-y-8">
+
+                        <div data-aos="fade-up" data-aos-delay="150">
+                            <h4 class="text-lg font-medium mb-2">
+                                In-Person Consultation
+                            </h4>
+
+                            <p class="text-white/80 leading-relaxed">
+                                Vile Parle East, Mumbai<br>
+                                Marol, Andheri East, Mumbai
+                            </p>
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-delay="250">
+                            <h4 class="text-lg font-medium mb-2">
+                                Online Consultation
+                            </h4>
+
+                            <p class="text-white/80">
+                                Secure sessions conducted via Google Meet.
+                            </p>
+                        </div>
+
+                        <div data-aos="fade-up" data-aos-delay="350">
+                            <h4 class="text-lg font-medium mb-2">
+                                Clinic Hours
+                            </h4>
+
+                            <p class="text-white/80">
+                                Monday – Saturday<br>
+                                9:00 AM – 1:30 PM
+                            </p>
+
+                            <p class="text-sm text-white/60 mt-2">
+                                By prior appointment only.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+    duration: 1000,
+    once: true,
+    offset: 100,
+    easing: 'ease-out-cubic'
+});
+</script>
+
+<!-- ================= FOOTER ================= -->
+
+<footer id="contact" class="bg-[#E8ECE8] pt-20 pb-10">
+
+  <div class="max-w-7xl mx-auto px-6 lg:px-10">
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-5 gap-12">
+
+      <!-- ABOUT -->
+      <div class="lg:col-span-2">
+     <!-- LOGO -->
+  <div class="flex items-center">
+  <img 
+  src="https://ik.imagekit.io/iuiy6mihw/Dr.logo.png" 
+  alt="Dr Angana Logo"
+  class="h-12 sm:h-14 lg:h-16 w-auto object-contain"
+/>
+</div>
+
+
+        <p class="mt-5 text-gray-600 leading-8">
+          Providing compassionate, evidence-based psychological care,
+          psychotherapy, psychological assessments, and clinical supervision
+          to support emotional well-being, resilience, and meaningful personal growth.
+        </p>
+
+      </div>
+
+      <!-- QUALIFICATIONS -->
+      <div>
+
+        <h4 class="text-xl font-semibold text-[#2D3B34] mb-5">
+          Qualifications
+        </h4>
+
+        <ul class="space-y-3 text-gray-600 leading-7">
+
+          <li>M.Phil. Clinical Psychology</li>
+
+          <li>Masters in Clinical Psychology</li>
+
+          <li>Rank Holder & Gold Medallist</li>
+
+          <li>PhD (Pursuing)</li>
+
+        </ul>
+
+      </div>
+
+      <!-- QUICK LINKS -->
+      <div>
+
+        <h4 class="text-xl font-semibold text-[#2D3B34] mb-5">
+          Quick Links
+        </h4>
+
+        <ul class="space-y-3">
+
+          <li>
+            <a href="index.html"
+               class="text-gray-600 hover:text-[#4F6F5F] transition duration-300">
+              Home
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html"
+               class="text-gray-600 hover:text-[#4F6F5F] transition duration-300">
+              About
+            </a>
+          </li>
+
+          <li>
+            <a href="services.html"
+               class="text-gray-600 hover:text-[#4F6F5F] transition duration-300">
+              Services
+            </a>
+          </li>
+
+          <li>
+            <a href="/index.html#faqs"
+               class="text-gray-600 hover:text-[#4F6F5F] transition duration-300">
+              FAQs
+            </a>
+          </li>
+
+          <li>
+            <a href="contact.html"
+               class="text-gray-600 hover:text-[#4F6F5F] transition duration-300">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <!-- CONTACT & SOCIAL -->
+      <div>
+
+        <h4 class="text-xl font-semibold text-[#2D3B34] mb-5">
+          Contact
+        </h4>
+
+        <ul class="space-y-3 text-gray-600">
+
+          <li>Online & In-Person Sessions</li>
+
+          <li>Available By Appointment</li>
+
+          <li>RCI Registered</li>
+
+          <li>English, Hindi & Bengali</li>
+
+        </ul>
+
+        <!-- SOCIAL ICONS -->
+        <div class="flex items-center gap-4 mt-6">
+
+          <!-- LINKEDIN -->
+          <a
+            href="https://www.linkedin.com/in/angana-mukherjee-sharma-86a5557b/"
+            target="_blank"
+            class="w-11 h-11 rounded-full bg-[#4F6F5F]
+                   text-white flex items-center justify-center
+                   hover:scale-110 hover:bg-[#3E5B4D]
+                   transition duration-300">
+
+            <i class="fa-brands fa-linkedin-in text-lg"></i>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  
+
+    <!-- BOTTOM -->
+
+    <div class="border-t border-gray-300 mt-8 pt-8">
+
+      <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+
+        <p>
+          © 2026 Dr. Angana Mukherjee Sharma. All Rights Reserved.
+        </p>
+
+        <p>
+          Designed with compassion, professionalism & care.
+        </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+    
+</body>
+</html>
