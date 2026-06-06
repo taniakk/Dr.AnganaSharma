@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>About Me</title>
-<script src="https://cdn.tailwindcss.com"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Individual Therapy</title>
 
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
 
   <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+<!-- AOS -->
+<link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-<style>
+  <style>
 
     body{
       font-family:'Inter',sans-serif;
@@ -46,9 +49,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     }
 
   </style>
+
 </head>
 
-<body class="bg-[#F8F6F1] text-[#2D3B34]">
+<body class="bg-[#F8F6F1]">
 
     <!-- ================= NAVBAR ================= -->
  <header class="fixed top-4 left-0 w-full z-50">
@@ -205,130 +209,55 @@ Specializations
   });
 
 </script>
-<section class="relative py-28 bg-[#F8F6F1] overflow-hidden">
+
+
+<section class="relative py-28 overflow-hidden">
 
   <!-- Background Blobs -->
-  <div class="absolute top-[-200px] right-[-200px] w-[700px] h-[700px] bg-[#3E5B4D]/10 rounded-full blur-[140px]"></div>
-  <div class="absolute bottom-[-200px] left-[-200px] w-[600px] h-[600px] bg-[#3E5B4D]/10 rounded-full blur-[140px]"></div>
+  <div class="absolute top-[-200px] right-[-200px] w-[650px] h-[650px] bg-[#3E5B4D]/10 rounded-full blur-3xl"></div>
+  <div class="absolute bottom-[-200px] left-[-200px] w-[550px] h-[550px] bg-[#3E5B4D]/10 rounded-full blur-3xl"></div>
 
   <div class="max-w-7xl mx-auto px-6 relative z-10">
 
-    <!-- HEADER -->
-    <div class="mb-16" data-aos="fade-up">
+    <!-- GRID -->
+    <div class="grid md:grid-cols-2 gap-14 items-center">
 
-      <p class="uppercase tracking-[6px] text-sm text-[#3E5B4D] mt-8 mb-4">
-        About Me
-      </p>
+      <!-- LEFT SIDE (ONLY HEADING) -->
+      <div data-aos="fade-right">
 
-      <h1 class="text-5xl md:text-5xl font-light leading-tight text-[#2D3B34]">
-        Clinical Psychologist<br>
-        <span class="text-[#3E5B4D]">& Psychotherapist</span>
-      </h1>
-
-      <div class="w-24 h-[2px] bg-[#3E5B4D] mt-8"></div>
-
-    </div>
-
-    <!-- MAIN GRID -->
-    <div class="grid lg:grid-cols-12 gap-14 items-start">
-
-      <!-- LEFT CONTENT -->
-      <div class="lg:col-span-7 space-y-8 text-[#6E8273] text-lg leading-[1.9]" data-aos="fade-right">
-
-        <p>
-          Hello, I am <span class="text-[#3E5B4D] font-semibold">Dr. Angana Mukherjee Sharma</span>,
-          an RCI-registered Clinical Psychologist with over 15 years of experience in mental health care,
-          psychological assessment, psychotherapy, and clinical supervision.
+        <p class="uppercase tracking-[6px] text-sm text-[#3E5B4D] mt-4 lg:mt-0 mb-6">
+          Therapy Service
         </p>
 
-        <p>
-          My work is guided by the belief that every individual deserves a safe, compassionate,
-          and non-judgmental space to explore their experiences, overcome challenges, and foster emotional well-being.
-        </p>
+        <h1 class="text-5xl md:text-6xl font-light text-[#2D3B34] leading-tight">
+          Child & Adolescent<br>
+          <span class="text-[#3E5B4D]">Therapy</span>
+        </h1>
 
-        <p>
-          I hold an M.Phil. in Clinical Psychology from the University of Calcutta and have trained at
-          leading institutions including <b>University of Calcutta</b>, <b>NIMHANS Bengaluru</b>,
-          and <b>Kokilaben Dhirubhai Ambani Hospital, Mumbai</b>.
-        </p>
-
-        <p>
-          Over the years, I have worked with adolescents, adults, couples, and families dealing with
-          anxiety, depression, stress, trauma, relationship difficulties, emotional challenges,
-          and life transitions.
-        </p>
-
-        <p>
-          My therapeutic approach is integrative and evidence-based, including:
-          <span class="text-[#3E5B4D] font-medium">
-            CBT, DBT, Behaviour Therapy, Psychodynamic Psychotherapy, Existential Therapy,
-            and Family Therapy.
-          </span>
-        </p>
-
-        <p>
-          I am actively engaged in research and training, with academic interests in women's mental health,
-          work–family balance, and career development.
-        </p>
-
-        <p>
-          I am committed to ethical, culturally sensitive, client-centered care that promotes resilience,
-          self-understanding, and meaningful change.
-        </p>
-
-        <!-- BUTTON -->
-        <div class="pt-4">
-          <a href="contact.html"
-             class="inline-flex items-center gap-3 bg-[#3E5B4D] text-white px-8 py-4 rounded-full
-                    hover:bg-[#2F4A3D] transition shadow-lg shadow-[#3E5B4D]/20">
-            Book Appointment →
-          </a>
-        </div>
+        <!-- decorative line -->
+        <div class="w-28 h-[2px] bg-[#3E5B4D] mt-10"></div>
 
       </div>
 
-      <!-- RIGHT IMAGE + PROFILE BOX -->
-      <div class="lg:col-span-5 space-y-8" data-aos="fade-left">
+      <!-- RIGHT SIDE (IMAGE CARD) -->
+      <div data-aos="fade-left"
+           class="relative rounded-[34px] mt-10 overflow-hidden shadow-[0_30px_90px_rgba(62,91,77,0.25)]">
 
-        <!-- IMAGE -->
-        <div class="relative rounded-[34px] overflow-hidden shadow-[0_30px_80px_rgba(62,91,77,0.25)]">
+        <img src="https://ik.imagekit.io/iuiy6mihw/therapy5.jpg?updatedAt=1779710252270"
+             class="w-full h-[520px] object-cover"
+             alt="Couple Therapy">
 
-          <img src="https://ik.imagekit.io/iuiy6mihw/Dr.Anjana.jpeg"
-               class="w-full h-[600px] object-cover"
-               alt="Doctor Image">
+        <!-- overlay -->
+        <div class="absolute inset-0 bg-gradient-to-t from-[#3E5B4D]/50 to-transparent"></div>
 
-          <div class="absolute inset-0 bg-gradient-to-t from-[#3E5B4D]/50 to-transparent"></div>
-
-          <div class="absolute bottom-6 left-6 text-white">
-            <p class="uppercase tracking-[3px] text-sm opacity-80">
-              Clinical Psychologist
-            </p>
-            <p class="text-lg font-medium">
-              15+ Years Experience
-            </p>
-          </div>
-
-        </div>
-
-        <!-- PROFESSIONAL PROFILE -->
-        <div class="bg-white rounded-[30px] p-8 border border-[#E6E1D7] shadow-sm" data-aos="fade-up">
-
-          <h3 class="text-xl text-[#3E5B4D] font-semibold mb-6">
-            Professional Profile
-          </h3>
-
-          <ul class="space-y-4 text-[#6E8273] text-[15px] leading-relaxed">
-
-            <li><b>Education:</b> M.Phil Clinical Psychology (University of Calcutta), M.A. Clinical Psychology (Gold Medallist), PhD (Pursuing)</li>
-
-            <li><b>Clinical Training:</b> University of Calcutta, Kolkata</li>
-
-            <li><b>Memberships:</b> RCI Registered, Member IACP</li>
-
-            <li><b>Experience:</b> Over 15 years in clinical practice</li>
-
-          </ul>
-
+        <!-- small label -->
+        <div class="absolute bottom-6 left-6 text-white">
+          <p class="uppercase tracking-[4px] text-sm opacity-80">
+            Safe & Confidential Space
+          </p>
+          <p class="text-lg font-medium">
+            Healing Starts Here
+          </p>
         </div>
 
       </div>
@@ -501,13 +430,12 @@ Specializations
 
 </footer>
 
-
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init({
     duration: 1000,
     once: true
   });
 </script>
+
 </body>
 </html>
