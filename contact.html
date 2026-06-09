@@ -223,9 +223,7 @@ Specializations
     <div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
 
         <!-- Heading -->
-        <div class="text-center max-w-4xl mx-auto mb-20 mt-4"
-             data-aos="fade-up">
-
+        <div class="text-center max-w-4xl mx-auto mb-20">
             <span class="uppercase tracking-[4px] text-[#6E8273] text-xs font-medium">
                 Contact & Appointments
             </span>
@@ -241,171 +239,282 @@ Specializations
             </p>
         </div>
 
-        <div class="grid lg:grid-cols-5 gap-10">
+        <!-- MAIN GRID -->
+       <div class="grid lg:grid-cols-[1.7fr_1fr] gap-10 items-stretch lg:auto-rows-fr">
 
-            <!-- Contact Form -->
-            <div class="lg:col-span-3 bg-white rounded-[40px]
-                        border border-[#E6E1D7]
-                        shadow-[0_20px_60px_rgba(45,59,52,0.08)]
-                        p-10 md:p-12"
-                 data-aos="fade-right"
-                 data-aos-delay="100">
+    <!-- LEFT FORM CARD -->
+    <div class="h-full">
 
-                <h3 class="text-3xl text-[#2D3B34] mb-8"
-                    data-aos="fade-up"
-                    data-aos-delay="150">
-                    Contact / Enquiry Form
-                </h3>
+        <div class="bg-white rounded-[40px]
+                    border border-[#E6E1D7]
+                    shadow-[0_20px_60px_rgba(45,59,52,0.08)]
+                    p-8 md:p-12
+                    h-full min-h-[900px]
+                    flex flex-col">
 
-                <form class="space-y-6">
+            <h3 class="text-3xl text-[#2D3B34] mb-8">
+                Contact / Enquiry Form
+            </h3>
 
-                    <div data-aos="fade-up" data-aos-delay="200">
+          
+<form
+    action="/form/appointment-form"
+    method="GET"
+    class="space-y-6 flex-grow flex flex-col"
+>
+
+
+            
+
+                <!-- Full Name -->
+                <div>
+                    <label class="block text-[#2D3B34] mb-2">
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        name="Full Name"
+                        required
+                        placeholder="Enter your full name"
+                        class="w-full rounded-2xl border border-[#DAD6CC]
+                               px-5 py-4 focus:outline-none
+                               focus:border-[#6E8273]"
+                    >
+                </div>
+
+                <!-- Age & Aadhaar -->
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div>
                         <label class="block text-[#2D3B34] mb-2">
-                            Full Name
-                        </label>
-                        <input type="text"
-                               class="w-full rounded-2xl border border-[#DAD6CC]
-                                      px-5 py-4 focus:outline-none
-                                      focus:border-[#6E8273]">
-                    </div>
-
-                    <div class="grid md:grid-cols-2 gap-6"
-                         data-aos="fade-up"
-                         data-aos-delay="250">
-
-                        <div>
-                            <label class="block text-[#2D3B34] mb-2">
-                                Email Address
-                            </label>
-                            <input type="email"
-                                   class="w-full rounded-2xl border border-[#DAD6CC]
-                                          px-5 py-4 focus:outline-none
-                                          focus:border-[#6E8273]">
-                        </div>
-
-                        <div>
-                            <label class="block text-[#2D3B34] mb-2">
-                                Phone Number
-                            </label>
-                            <input type="tel"
-                                   class="w-full rounded-2xl border border-[#DAD6CC]
-                                          px-5 py-4 focus:outline-none
-                                          focus:border-[#6E8273]">
-                        </div>
-
-                    </div>
-
-                    <div data-aos="fade-up" data-aos-delay="300">
-                        <label class="block text-[#2D3B34] mb-2">
-                            Reason for Inquiry
+                            Age
                         </label>
 
-                        <select class="w-full rounded-2xl border border-[#DAD6CC]
-                                       px-5 py-4 focus:outline-none
-                                       focus:border-[#6E8273]">
-                            <option>Select</option>
-                            <option>Therapy</option>
-                            <option>Psychological Assessment</option>
-                            <option>Clinical Supervision</option>
-                            <option>Consultation</option>
-                            <option>Other</option>
-                        </select>
+                        <input
+                            type="number"
+                            name="Age"
+                            required
+                            placeholder="Enter your age"
+                            class="w-full rounded-2xl border border-[#DAD6CC]
+                                   px-5 py-4 focus:outline-none
+                                   focus:border-[#6E8273]"
+                        >
                     </div>
 
-                    <div class="grid md:grid-cols-2 gap-6"
-                         data-aos="fade-up"
-                         data-aos-delay="350">
+                    <div>
+                        <label class="block text-[#2D3B34] mb-2">
+                            Aadhaar Number
+                        </label>
 
-                        <div>
-                            <label class="block text-[#2D3B34] mb-2">
-                                Referred By
-                            </label>
-
-                            <input type="text"
-                                   class="w-full rounded-2xl border border-[#DAD6CC]
-                                          px-5 py-4 focus:outline-none
-                                          focus:border-[#6E8273]">
-                        </div>
-
-                        <div>
-                            <label class="block text-[#2D3B34] mb-2">
-                                Referred For
-                            </label>
-
-                            <input type="text"
-                                   class="w-full rounded-2xl border border-[#DAD6CC]
-                                          px-5 py-4 focus:outline-none
-                                          focus:border-[#6E8273]">
-                        </div>
-
-                    </div>
-
-                    <button type="submit"
-                            data-aos="zoom-in"
-                            data-aos-delay="400"
-                            class="bg-[#6E8273] text-white px-8 py-4 rounded-full
-                                   hover:bg-[#5C6D61] transition-all duration-300">
-                        Submit Enquiry
-                    </button>
-
-                </form>
-
-            </div>
-
-            <!-- Clinic Information -->
-            <div class="lg:col-span-2">
-
-                <div class="bg-gradient-to-br from-[#6E8273] to-[#4F6255]
-                            text-white rounded-[40px]
-                            p-10 h-full"
-                     data-aos="fade-left"
-                     data-aos-delay="200">
-
-                    <h3 class="text-3xl mb-8">
-                        Clinic Information
-                    </h3>
-
-                    <div class="space-y-8">
-
-                        <div data-aos="fade-up" data-aos-delay="150">
-                            <h4 class="text-lg font-medium mb-2">
-                                In-Person Consultation
-                            </h4>
-
-                            <p class="text-white/80 leading-relaxed">
-                                Vile Parle East, Mumbai<br>
-                                Marol, Andheri East, Mumbai
-                            </p>
-                        </div>
-
-                        <div data-aos="fade-up" data-aos-delay="250">
-                            <h4 class="text-lg font-medium mb-2">
-                                Online Consultation
-                            </h4>
-
-                            <p class="text-white/80">
-                                Secure sessions conducted via Google Meet.
-                            </p>
-                        </div>
-
-                        <div data-aos="fade-up" data-aos-delay="350">
-                            <h4 class="text-lg font-medium mb-2">
-                                Clinic Hours
-                            </h4>
-
-                            <p class="text-white/80">
-                                Monday – Saturday<br>
-                                9:00 AM – 1:30 PM
-                            </p>
-
-                            <p class="text-sm text-white/60 mt-2">
-                                By prior appointment only.
-                            </p>
-                        </div>
-
+                        <input
+                            type="text"
+                            name="Aadhaar Number"
+                            maxlength="12"
+                            pattern="[0-9]{12}"
+                            placeholder="Enter 12-digit Aadhaar Number"
+                            class="w-full rounded-2xl border border-[#DAD6CC]
+                                   px-5 py-4 focus:outline-none
+                                   focus:border-[#6E8273]"
+                        >
                     </div>
 
                 </div>
+
+                <!-- Email & Phone -->
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div>
+                        <label class="block text-[#2D3B34] mb-2">
+                            Email Address
+                        </label>
+
+                        <input
+                            type="email"
+                            name="Email"
+                            required
+                            placeholder="Enter your email"
+                            class="w-full rounded-2xl border border-[#DAD6CC]
+                                   px-5 py-4 focus:outline-none
+                                   focus:border-[#6E8273]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block text-[#2D3B34] mb-2">
+                            Phone Number
+                        </label>
+
+                        <input
+                            type="tel"
+                            name="Phone Number"
+                            placeholder="Enter your phone number"
+                            class="w-full rounded-2xl border border-[#DAD6CC]
+                                   px-5 py-4 focus:outline-none
+                                   focus:border-[#6E8273]"
+                        >
+                    </div>
+
+                </div>
+
+                <!-- Address -->
+                <div>
+                    <label class="block text-[#2D3B34] mb-2">
+                        Address
+                    </label>
+
+                    <textarea
+                        name="Address"
+                        rows="3"
+                        placeholder="Enter your complete address"
+                        class="w-full rounded-2xl border border-[#DAD6CC]
+                               px-5 py-4 focus:outline-none
+                               focus:border-[#6E8273]"
+                    ></textarea>
+                </div>
+
+                <!-- City & Preferred Mode -->
+                <div class="grid md:grid-cols-2 gap-6">
+
+                    <div>
+                        <label class="block text-[#2D3B34] mb-2">
+                            City
+                        </label>
+
+                        <input
+                            type="text"
+                            name="City"
+                            placeholder="Enter your city"
+                            class="w-full rounded-2xl border border-[#DAD6CC]
+                                   px-5 py-4 focus:outline-none
+                                   focus:border-[#6E8273]"
+                        >
+                    </div>
+
+                    <div>
+                        <label class="block text-[#2D3B34] mb-2">
+                            Preferred Mode
+                        </label>
+
+                        <select
+                            name="Preferred Mode"
+                            class="w-full rounded-2xl border border-[#DAD6CC]
+                                   px-5 py-4 focus:outline-none
+                                   focus:border-[#6E8273] bg-white"
+                        >
+                            <option value="">Select Mode</option>
+                            <option value="Online">Online</option>
+                            <option value="Offline">Offline</option>
+                        </select>
+                    </div>
+
+                </div>
+
+                <!-- Message -->
+                <div class="flex-grow">
+                    <label class="block text-[#2D3B34] mb-2">
+                        Message
+                    </label>
+
+                    <textarea
+                        name="Message"
+                        rows="6"
+                        placeholder="Please share how we can help you..."
+                        class="w-full rounded-2xl border border-[#DAD6CC]
+                               px-5 py-4 focus:outline-none
+                               focus:border-[#6E8273]"
+                    ></textarea>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="pt-2">
+                    <button
+                        type="submit"
+                        class="bg-[#6E8273] text-white px-8 py-4 rounded-full
+                               hover:bg-[#5C6D61] transition-all duration-300
+                               w-full md:w-auto font-medium"
+                    >
+                        Send Details
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+    </div>
+
+   <!-- RIGHT INFORMATION CARD -->
+<div class="h-full">
+
+    <div class="bg-gradient-to-br from-[#6E8273] to-[#4F6255]
+                text-white rounded-[40px]
+                p-8 md:p-10
+                h-full flex flex-col justify-between">
+
+        <!-- Top Section -->
+        <div>
+
+            <h3 class="text-3xl font-semibold mb-10">
+                Clinic Information
+            </h3>
+
+            <div class="space-y-8">
+
+                <div class="bg-white/5 rounded-3xl p-6 border border-white/10">
+                    <h4 class="text-lg font-medium mb-3">
+                        In-Person Consultation
+                    </h4>
+
+                    <p class="text-white/80 leading-relaxed">
+                        Vile Parle East, Mumbai<br>
+                        Marol, Andheri East, Mumbai
+                    </p>
+                </div>
+
+                <div class="bg-white/5 rounded-3xl p-6 border border-white/10">
+                    <h4 class="text-lg font-medium mb-3">
+                        Online Consultation
+                    </h4>
+
+                    <p class="text-white/80 leading-relaxed">
+                        Secure sessions conducted via Google Meet.
+                    </p>
+                </div>
+
+                <div class="bg-white/5 rounded-3xl p-6 border border-white/10">
+                    <h4 class="text-lg font-medium mb-3">
+                        Clinic Hours
+                    </h4>
+
+                    <p class="text-white/80">
+                        Monday – Saturday<br>
+                        9:00 AM – 1:30 PM
+                    </p>
+
+                    <p class="text-sm text-white/60 mt-3">
+                        By prior appointment only.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="mt-10 pt-8 border-t border-white/10">
+
+            <div class="bg-white/5 rounded-3xl p-6">
+
+                <h4 class="text-lg font-medium mb-3">
+                    Quick Response
+                </h4>
+
+                <p class="text-white/75 leading-relaxed">
+                    We aim to respond to all enquiries within 24 hours.
+                    Your information is treated with complete confidentiality
+                    and professional care.
+                </p>
 
             </div>
 
@@ -413,8 +522,13 @@ Specializations
 
     </div>
 
-</section>
+</div>
 
+</div>
+
+    </div>
+
+</section>
 <!-- AOS JS -->
 <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
 
