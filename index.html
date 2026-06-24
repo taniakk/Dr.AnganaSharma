@@ -1861,42 +1861,49 @@ function showService(serviceKey) {
     </div>
 
     <!-- Emergency Disclaimer -->
-    <div class="mt-12 bg-gradient-to-r from-[#FFF3F0] to-[#FFF8F5]
+  <div class="mt-8 md:mt-12 bg-gradient-to-r from-[#FFF3F0] to-[#FFF8F5]
             border border-[#E9B7A8]
-            rounded-[30px] p-8
+            rounded-2xl md:rounded-[30px]
+            p-5 sm:p-6 md:p-8
             shadow-[0_20px_60px_rgba(180,80,60,0.12)]
             relative overflow-hidden">
 
-  <!-- subtle glow -->
-  <div class="absolute -top-10 -right-10 w-40 h-40 bg-red-200/30 blur-3xl rounded-full"></div>
+    <!-- Glow Effect -->
+    <div class="absolute -top-10 -right-10 w-24 h-24 md:w-40 md:h-40 bg-red-200/30 blur-3xl rounded-full"></div>
 
-  <div class="flex items-start gap-4 relative z-10">
+    <div class="flex flex-col sm:flex-row items-start gap-4 relative z-10">
 
-    <!-- icon -->
-    <div class="w-12 h-12 rounded-full bg-[#E74C3C]
-                text-white flex items-center justify-center
-                flex-shrink-0 shadow-md animate-pulse">
-      ⚠️
+        <!-- Icon -->
+        <div class="w-12 h-12 rounded-full bg-[#E74C3C]
+                    text-white flex items-center justify-center
+                    flex-shrink-0 shadow-md animate-pulse text-lg">
+            ⚠️
+        </div>
+
+        <!-- Content -->
+        <div class="flex-1">
+
+            <div class="flex flex-col sm:flex-row sm:items-center gap-2 mb-3">
+
+                <h4 class="text-[#C0392B] text-lg md:text-xl font-semibold">
+                    Emergency Disclaimer
+                </h4>
+
+                <span class="w-fit text-xs md:text-sm bg-red-100 text-red-600 px-3 py-1 rounded-full">
+                    Important
+                </span>
+
+            </div>
+
+            <p class="text-[#7A5A55] text-sm md:text-base leading-relaxed">
+                This website is not intended for crisis situations.
+                If you are experiencing a mental health emergency, please contact emergency services,
+                nearest hospital, or a crisis helpline immediately.
+            </p>
+
+        </div>
+
     </div>
-
-    <div>
-
-      <h4 class="text-[#C0392B] text-xl mb-2 font-semibold flex items-center gap-2">
-        Emergency Disclaimer
-        <span class="text-sm bg-red-100 text-red-600 px-3 py-1 rounded-full">
-          Important
-        </span>
-      </h4>
-
-      <p class="text-[#7A5A55] leading-relaxed">
-        This website is not intended for crisis situations.
-        If you are experiencing a mental health emergency, please contact emergency services,
-        nearest hospital, or a crisis helpline immediately.
-      </p>
-
-    </div>
-
-  </div>
 
 </div>
 
